@@ -1,0 +1,696 @@
+I, [2017-01-25T14:53:09.873432 #70854]  INFO -- : [3210ab09-b5dc-48f0-80a6-3375f421ee67] Started GET "/the_crossings" for 127.0.0.1 at 2017-01-25 14:53:09 -0700
+I, [2017-01-25T14:53:09.877646 #70854]  INFO -- : [3210ab09-b5dc-48f0-80a6-3375f421ee67] Processing by HomeController#the_crossings as HTML
+I, [2017-01-25T14:53:09.894397 #70854]  INFO -- : [3210ab09-b5dc-48f0-80a6-3375f421ee67]   Rendering home/the_crossings.html.erb within layouts/application
+I, [2017-01-25T14:53:09.895416 #70854]  INFO -- : [3210ab09-b5dc-48f0-80a6-3375f421ee67]   Rendered home/the_crossings.html.erb within layouts/application (0.7ms)
+I, [2017-01-25T14:53:09.902842 #70854]  INFO -- : [3210ab09-b5dc-48f0-80a6-3375f421ee67] Completed 200 OK in 25ms (Views: 13.2ms)
+I, [2017-01-25T14:53:09.995772 #70854]  INFO -- : [eab452dc-4ad1-450b-8bb7-7aadc22dcadd] Started GET "/assets/application-e5e1db825ee636664e98303e159f5ebfe50c9c08af1b54fad622e80c7e7c1940.js" for 127.0.0.1 at 2017-01-25 14:53:09 -0700
+I, [2017-01-25T14:53:10.021039 #70854]  INFO -- : [86cdd529-c563-4dcc-9b95-f6c85f1ba4e3] Started GET "/assets/application-3114f42af6c4d854052624523fc30345ffe14c4877ab2e6675c5751d35796cc3.css" for 127.0.0.1 at 2017-01-25 14:53:10 -0700
+I, [2017-01-25T14:53:10.323694 #70854]  INFO -- : [a759fc05-b36c-44f3-89ee-98a4e78c93f4] Started GET "/assets/style.css" for 127.0.0.1 at 2017-01-25 14:53:10 -0700
+I, [2017-01-25T14:53:10.436322 #70854]  INFO -- : [dacb773f-0632-4fe9-9dec-2d3c73b6a45a] Started GET "/assets/map.css" for 127.0.0.1 at 2017-01-25 14:53:10 -0700
+I, [2017-01-25T14:53:10.735724 #70854]  INFO -- : [6f031abf-5df3-4bee-8f11-b1748f8ccc40] Started GET "/assets/mapplic/mapplic.css" for 127.0.0.1 at 2017-01-25 14:53:10 -0700
+I, [2017-01-25T14:53:11.227786 #70854]  INFO -- : [cbc6944d-b98b-47a8-ad9c-59258acedc7b] Started GET "/assets/script.js" for 127.0.0.1 at 2017-01-25 14:53:11 -0700
+I, [2017-01-25T14:53:11.234942 #70854]  INFO -- : [b4c02d63-41ab-4bf0-8e1a-b10c46855824] Started GET "/assets/mapplic.js" for 127.0.0.1 at 2017-01-25 14:53:11 -0700
+I, [2017-01-25T14:53:11.428382 #70854]  INFO -- : [b08994f6-5c2c-4a48-ac9d-90f0e19a1dac] Started GET "/assets/jquery.mousewheel.js" for 127.0.0.1 at 2017-01-25 14:53:11 -0700
+I, [2017-01-25T14:53:11.844043 #70854]  INFO -- : [9108984d-0545-4bff-974d-59f72e74af93] Started GET "/assets/sunrise.jpg" for 127.0.0.1 at 2017-01-25 14:53:11 -0700
+I, [2017-01-25T14:53:12.653673 #70854]  INFO -- : [e798744a-5eec-4800-9f52-2240a2ead1a6] Started GET "/assets/mapplic/images/loader.gif" for 127.0.0.1 at 2017-01-25 14:53:12 -0700
+I, [2017-01-25T14:53:12.659824 #70854]  INFO -- : [0dd0a689-f48f-4ef0-88be-6473fcd0ae76] Started GET "/assets/crossings.json" for 127.0.0.1 at 2017-01-25 14:53:12 -0700
+I, [2017-01-25T14:53:12.697024 #70854]  INFO -- : [397574b1-bead-4fbf-b961-b34fb1cf0d7a] Started GET "/assets/crossings.svg" for 127.0.0.1 at 2017-01-25 14:53:12 -0700
+I, [2017-01-25T14:53:12.742778 #70854]  INFO -- : [21f79141-5cbe-47a6-822e-7dc492aa1cab] Started GET "/assets/mapplic/images/reset@2x.png" for 127.0.0.1 at 2017-01-25 14:53:12 -0700
+I, [2017-01-25T14:53:12.765934 #70854]  INFO -- : [d438e543-4c29-403b-b07d-463d3ec2d60d] Started GET "/assets/mapplic/images/pin-purple@2x.png" for 127.0.0.1 at 2017-01-25 14:53:12 -0700
+I, [2017-01-25T14:53:12.779085 #70854]  INFO -- : [065dcb88-17f4-4c04-a7d6-f002f31a88c5] Started GET "/assets/mapplic/images/pin-yellow@2x.png" for 127.0.0.1 at 2017-01-25 14:53:12 -0700
+I, [2017-01-25T14:53:12.780949 #70854]  INFO -- : [8082203c-8422-4541-8965-2392182ef048] Started GET "/assets/mapplic/images/pin-orange@2x.png" for 127.0.0.1 at 2017-01-25 14:53:12 -0700
+I, [2017-01-25T14:53:12.804861 #70854]  INFO -- : [5dc28144-cca3-4cb5-a33b-fd14ef93716a] Started GET "/favicon.ico" for 127.0.0.1 at 2017-01-25 14:53:12 -0700
+F, [2017-01-25T14:53:12.806359 #70854] FATAL -- : [5dc28144-cca3-4cb5-a33b-fd14ef93716a]   
+F, [2017-01-25T14:53:12.806490 #70854] FATAL -- : [5dc28144-cca3-4cb5-a33b-fd14ef93716a] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+F, [2017-01-25T14:53:12.806550 #70854] FATAL -- : [5dc28144-cca3-4cb5-a33b-fd14ef93716a]   
+F, [2017-01-25T14:53:12.806637 #70854] FATAL -- : [5dc28144-cca3-4cb5-a33b-fd14ef93716a] actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+[5dc28144-cca3-4cb5-a33b-fd14ef93716a] actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[5dc28144-cca3-4cb5-a33b-fd14ef93716a] railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+[5dc28144-cca3-4cb5-a33b-fd14ef93716a] railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+[5dc28144-cca3-4cb5-a33b-fd14ef93716a] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[5dc28144-cca3-4cb5-a33b-fd14ef93716a] activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+[5dc28144-cca3-4cb5-a33b-fd14ef93716a] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+[5dc28144-cca3-4cb5-a33b-fd14ef93716a] railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+[5dc28144-cca3-4cb5-a33b-fd14ef93716a] actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+[5dc28144-cca3-4cb5-a33b-fd14ef93716a] rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+[5dc28144-cca3-4cb5-a33b-fd14ef93716a] rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+[5dc28144-cca3-4cb5-a33b-fd14ef93716a] activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[5dc28144-cca3-4cb5-a33b-fd14ef93716a] actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[5dc28144-cca3-4cb5-a33b-fd14ef93716a] rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+[5dc28144-cca3-4cb5-a33b-fd14ef93716a] railties (5.0.1) lib/rails/engine.rb:522:in `call'
+[5dc28144-cca3-4cb5-a33b-fd14ef93716a] puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+[5dc28144-cca3-4cb5-a33b-fd14ef93716a] puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+[5dc28144-cca3-4cb5-a33b-fd14ef93716a] puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+[5dc28144-cca3-4cb5-a33b-fd14ef93716a] puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+[5dc28144-cca3-4cb5-a33b-fd14ef93716a] puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+I, [2017-01-25T14:53:17.693913 #70854]  INFO -- : [c1a25144-b5cb-4af4-b2eb-d34fa33481e1] Started GET "/" for 127.0.0.1 at 2017-01-25 14:53:17 -0700
+I, [2017-01-25T14:53:17.695465 #70854]  INFO -- : [c1a25144-b5cb-4af4-b2eb-d34fa33481e1] Processing by HomeController#index as HTML
+I, [2017-01-25T14:53:17.709201 #70854]  INFO -- : [c1a25144-b5cb-4af4-b2eb-d34fa33481e1] Completed 500 Internal Server Error in 14ms (ActiveRecord: 2.2ms)
+F, [2017-01-25T14:53:17.709838 #70854] FATAL -- : [c1a25144-b5cb-4af4-b2eb-d34fa33481e1]   
+F, [2017-01-25T14:53:17.709869 #70854] FATAL -- : [c1a25144-b5cb-4af4-b2eb-d34fa33481e1] ActiveRecord::StatementInvalid (Could not find table 'posts'):
+F, [2017-01-25T14:53:17.709888 #70854] FATAL -- : [c1a25144-b5cb-4af4-b2eb-d34fa33481e1]   
+F, [2017-01-25T14:53:17.709906 #70854] FATAL -- : [c1a25144-b5cb-4af4-b2eb-d34fa33481e1] app/controllers/home_controller.rb:3:in `index'
+D, [2017-01-25T14:54:28.474369 #70908] DEBUG -- :   [1m[35m (2.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+D, [2017-01-25T14:54:28.478393 #70908] DEBUG -- :   [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+D, [2017-01-25T14:54:28.488221 #70908] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+I, [2017-01-25T14:54:28.491503 #70908]  INFO -- : Migrating to CreatePosts (20170111185737)
+D, [2017-01-25T14:54:28.492985 #70908] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2017-01-25T14:54:28.494452 #70908] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar, "last_name" varchar, "email" varchar, "phone" varchar, "message" varchar, "howknowus" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+D, [2017-01-25T14:54:28.498983 #70908] DEBUG -- :   [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170111185737"]]
+D, [2017-01-25T14:54:28.499897 #70908] DEBUG -- :   [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+D, [2017-01-25T14:54:28.502274 #70908] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+D, [2017-01-25T14:54:28.505217 #70908] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+D, [2017-01-25T14:54:28.506758 #70908] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "production"], ["created_at", 2017-01-25 21:54:28 UTC], ["updated_at", 2017-01-25 21:54:28 UTC]]
+D, [2017-01-25T14:54:28.507692 #70908] DEBUG -- :   [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+I, [2017-01-25T14:54:46.409715 #70910]  INFO -- : [f52906e9-5b4c-4548-8200-5d7f3e8cc25c] Started GET "/" for 127.0.0.1 at 2017-01-25 14:54:46 -0700
+I, [2017-01-25T14:54:46.415494 #70910]  INFO -- : [f52906e9-5b4c-4548-8200-5d7f3e8cc25c] Processing by HomeController#index as HTML
+I, [2017-01-25T14:54:46.449312 #70910]  INFO -- : [f52906e9-5b4c-4548-8200-5d7f3e8cc25c]   Rendering home/index.html.erb within layouts/application
+I, [2017-01-25T14:54:46.478291 #70910]  INFO -- : [f52906e9-5b4c-4548-8200-5d7f3e8cc25c]   Rendered home/index.html.erb within layouts/application (28.8ms)
+I, [2017-01-25T14:54:46.479943 #70910]  INFO -- : [f52906e9-5b4c-4548-8200-5d7f3e8cc25c] Completed 200 OK in 64ms (Views: 39.9ms | ActiveRecord: 1.6ms)
+I, [2017-01-25T14:54:46.616886 #70910]  INFO -- : [97763e78-66a5-4070-a85f-f99e3526a069] Started GET "/assets/map.js" for 127.0.0.1 at 2017-01-25 14:54:46 -0700
+I, [2017-01-25T14:54:46.929171 #70910]  INFO -- : [9514f73b-7a90-474b-ba34-3de320dc0ca2] Started GET "/assets/script.js" for 127.0.0.1 at 2017-01-25 14:54:46 -0700
+I, [2017-01-25T14:54:46.930474 #70910]  INFO -- : [e106fae9-1387-4e3b-aa20-10088e1110c6] Started GET "/assets/women-management-5d8bc87ba2bc29e5d6cacfd06c05f4aa21a3424990796fd9ff97834bfa6e4093.png" for 127.0.0.1 at 2017-01-25 14:54:46 -0700
+I, [2017-01-25T14:54:46.932138 #70910]  INFO -- : [74e5f07b-7990-4b3e-bf78-eb05496d9ff9] Started GET "/assets/road-ee8e701e728d53a9f276487356b1aa6105d737d1c9565bc91549e62d25eb3ac6.png" for 127.0.0.1 at 2017-01-25 14:54:46 -0700
+I, [2017-01-25T14:54:46.932646 #70910]  INFO -- : [7de8bf3f-b845-416a-9fb6-ea4415a24d05] Started GET "/assets/valley-99e3c5e9853d753c79b2465325433683cd83e68d997205eba671f3b116f87d87.png" for 127.0.0.1 at 2017-01-25 14:54:46 -0700
+I, [2017-01-25T14:54:46.949102 #70910]  INFO -- : [64b3762a-99ab-4f61-bd08-bc1807c4c922] Started GET "/assets/mountain-a60cd2e681ad1a4e5219407ab64f57f31ab55b6a214e4465f143fbbde7173de6.jpg" for 127.0.0.1 at 2017-01-25 14:54:46 -0700
+I, [2017-01-25T14:54:46.954604 #70910]  INFO -- : [e9c103cf-3093-4866-a77f-ab320843abdc] Started GET "/assets/bryce-canyon-41eef213bddf563d62436fcbf7c7390c2b18fe01722fed76a0c5680b55ac92db.jpg" for 127.0.0.1 at 2017-01-25 14:54:46 -0700
+I, [2017-01-25T14:54:46.956407 #70910]  INFO -- : [14159d25-66ef-4b1e-af21-6d80d643e2ff] Started GET "/assets/mountain3-a769c918cc59606ad7e53606796ab4b299bb50e1207b38abd072d4d0fd9560b6.jpg" for 127.0.0.1 at 2017-01-25 14:54:46 -0700
+I, [2017-01-25T14:54:46.967887 #70910]  INFO -- : [26776f43-0f80-4216-8df5-2c888c13cef5] Started GET "/assets/mountains6-e495296f3b807680eb391e87ce4be60d82a46a4e38be8f4b6c084e35402023bc.jpg" for 127.0.0.1 at 2017-01-25 14:54:46 -0700
+I, [2017-01-25T14:54:46.972679 #70910]  INFO -- : [dccc1a34-c262-49df-a617-c6806a475aa0] Started GET "/assets/rsz_heber.jpg" for 127.0.0.1 at 2017-01-25 14:54:46 -0700
+I, [2017-01-25T14:54:47.178708 #70910]  INFO -- : [cc3bfdb5-38e6-4913-8710-a9dfe0a5458e] Started GET "/assets/playground-e54791cdfdb83e9e891852d1eea767f0334772af4dc1d615c3642fa94898372e.png" for 127.0.0.1 at 2017-01-25 14:54:47 -0700
+I, [2017-01-25T14:55:03.225577 #70910]  INFO -- : [aae1e76c-e0a9-43cd-b1e1-cf668170e108] Started GET "/the_crossings" for 127.0.0.1 at 2017-01-25 14:55:03 -0700
+I, [2017-01-25T14:55:03.233583 #70910]  INFO -- : [aae1e76c-e0a9-43cd-b1e1-cf668170e108] Processing by HomeController#the_crossings as HTML
+I, [2017-01-25T14:55:03.238882 #70910]  INFO -- : [aae1e76c-e0a9-43cd-b1e1-cf668170e108]   Rendering home/the_crossings.html.erb within layouts/application
+I, [2017-01-25T14:55:03.240535 #70910]  INFO -- : [aae1e76c-e0a9-43cd-b1e1-cf668170e108]   Rendered home/the_crossings.html.erb within layouts/application (1.5ms)
+I, [2017-01-25T14:55:03.241893 #70910]  INFO -- : [aae1e76c-e0a9-43cd-b1e1-cf668170e108] Completed 200 OK in 8ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+I, [2017-01-25T14:55:03.282476 #70910]  INFO -- : [a1f4ed72-cfa5-457d-b868-0b56cab26b92] Started GET "/assets/style.css" for 127.0.0.1 at 2017-01-25 14:55:03 -0700
+I, [2017-01-25T14:55:03.286202 #70910]  INFO -- : [5e90b4f7-0851-4ab5-95e2-b48ddd487c2e] Started GET "/assets/mapplic/mapplic.css" for 127.0.0.1 at 2017-01-25 14:55:03 -0700
+I, [2017-01-25T14:55:03.300148 #70910]  INFO -- : [5d186cd0-f158-4ec9-9e12-bf527426f042] Started GET "/assets/map.css" for 127.0.0.1 at 2017-01-25 14:55:03 -0700
+I, [2017-01-25T14:55:03.301873 #70910]  INFO -- : [d6df5496-df13-4587-9a86-990f1ce944ad] Started GET "/assets/jquery.mousewheel.js" for 127.0.0.1 at 2017-01-25 14:55:03 -0700
+I, [2017-01-25T14:55:03.303969 #70910]  INFO -- : [3166dd85-8287-4844-a4a6-a8f4c1a99336] Started GET "/assets/script.js" for 127.0.0.1 at 2017-01-25 14:55:03 -0700
+I, [2017-01-25T14:55:03.320231 #70910]  INFO -- : [5f9bd95e-647b-4225-a6c4-bd9cd6e60c8f] Started GET "/assets/sunrise.jpg" for 127.0.0.1 at 2017-01-25 14:55:03 -0700
+I, [2017-01-25T14:55:03.328941 #70910]  INFO -- : [8e0b8ee3-2414-4b47-9a36-56e1050c1647] Started GET "/assets/images/loader.gif" for 127.0.0.1 at 2017-01-25 14:55:03 -0700
+F, [2017-01-25T14:55:03.333320 #70910] FATAL -- : [8e0b8ee3-2414-4b47-9a36-56e1050c1647]   
+F, [2017-01-25T14:55:03.333423 #70910] FATAL -- : [8e0b8ee3-2414-4b47-9a36-56e1050c1647] ActionController::RoutingError (No route matches [GET] "/assets/images/loader.gif"):
+F, [2017-01-25T14:55:03.333557 #70910] FATAL -- : [8e0b8ee3-2414-4b47-9a36-56e1050c1647]   
+F, [2017-01-25T14:55:03.333612 #70910] FATAL -- : [8e0b8ee3-2414-4b47-9a36-56e1050c1647] actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+[8e0b8ee3-2414-4b47-9a36-56e1050c1647] actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[8e0b8ee3-2414-4b47-9a36-56e1050c1647] railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+[8e0b8ee3-2414-4b47-9a36-56e1050c1647] railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+[8e0b8ee3-2414-4b47-9a36-56e1050c1647] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[8e0b8ee3-2414-4b47-9a36-56e1050c1647] activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+[8e0b8ee3-2414-4b47-9a36-56e1050c1647] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+[8e0b8ee3-2414-4b47-9a36-56e1050c1647] railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+[8e0b8ee3-2414-4b47-9a36-56e1050c1647] actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+[8e0b8ee3-2414-4b47-9a36-56e1050c1647] rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+[8e0b8ee3-2414-4b47-9a36-56e1050c1647] rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+[8e0b8ee3-2414-4b47-9a36-56e1050c1647] activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[8e0b8ee3-2414-4b47-9a36-56e1050c1647] actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[8e0b8ee3-2414-4b47-9a36-56e1050c1647] rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+[8e0b8ee3-2414-4b47-9a36-56e1050c1647] railties (5.0.1) lib/rails/engine.rb:522:in `call'
+[8e0b8ee3-2414-4b47-9a36-56e1050c1647] puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+[8e0b8ee3-2414-4b47-9a36-56e1050c1647] puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+[8e0b8ee3-2414-4b47-9a36-56e1050c1647] puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+[8e0b8ee3-2414-4b47-9a36-56e1050c1647] puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+[8e0b8ee3-2414-4b47-9a36-56e1050c1647] puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+I, [2017-01-25T14:55:03.351536 #70910]  INFO -- : [ad474838-799f-4a15-a183-0e815df995c2] Started GET "/assets/crossings.json" for 127.0.0.1 at 2017-01-25 14:55:03 -0700
+I, [2017-01-25T14:55:03.401226 #70910]  INFO -- : [d96f25d6-e79d-417d-b673-e9e064b3b4e5] Started GET "/assets/mapplic/images/loader.gif" for 127.0.0.1 at 2017-01-25 14:55:03 -0700
+I, [2017-01-25T14:55:03.433572 #70910]  INFO -- : [b69f74ca-2525-4856-9412-fa6c6427fa72] Started GET "/assets/crossings.svg" for 127.0.0.1 at 2017-01-25 14:55:03 -0700
+I, [2017-01-25T14:55:03.461515 #70910]  INFO -- : [6a407750-e25e-467f-88b4-c379864bfb42] Started GET "/assets/mapplic/images/reset@2x.png" for 127.0.0.1 at 2017-01-25 14:55:03 -0700
+I, [2017-01-25T14:55:03.480859 #70910]  INFO -- : [69665a30-2397-4f0f-a9c4-8feb82853a48] Started GET "/assets/mapplic/images/pin-purple@2x.png" for 127.0.0.1 at 2017-01-25 14:55:03 -0700
+I, [2017-01-25T14:55:03.492142 #70910]  INFO -- : [f7b16a0d-cb26-4d48-b2f7-e35207d41fb9] Started GET "/assets/mapplic/images/pin-orange@2x.png" for 127.0.0.1 at 2017-01-25 14:55:03 -0700
+I, [2017-01-25T14:55:03.496617 #70910]  INFO -- : [506e8e75-6e7f-4883-acc4-98b09648030b] Started GET "/assets/mapplic.js" for 127.0.0.1 at 2017-01-25 14:55:03 -0700
+I, [2017-01-25T14:55:03.504855 #70910]  INFO -- : [872bc36a-aab0-443c-b45e-bce6bf7a0882] Started GET "/assets/mapplic/images/pin-yellow@2x.png" for 127.0.0.1 at 2017-01-25 14:55:03 -0700
+I, [2017-01-25T14:55:08.062389 #70910]  INFO -- : [e3322b7c-e596-4ad0-9aa7-c2dfe9cd16f1] Started GET "/assets/cross-light@2x.png" for 127.0.0.1 at 2017-01-25 14:55:08 -0700
+I, [2017-01-25T14:55:19.039341 #70910]  INFO -- : [2f751946-a807-42b5-965c-03a08ed3da66] Started GET "/amenities" for 127.0.0.1 at 2017-01-25 14:55:19 -0700
+I, [2017-01-25T14:55:19.065603 #70910]  INFO -- : [2f751946-a807-42b5-965c-03a08ed3da66] Processing by HomeController#amenities as HTML
+I, [2017-01-25T14:55:19.072403 #70910]  INFO -- : [2f751946-a807-42b5-965c-03a08ed3da66]   Rendering home/amenities.html.erb within layouts/application
+I, [2017-01-25T14:55:19.076938 #70910]  INFO -- : [2f751946-a807-42b5-965c-03a08ed3da66]   Rendered home/amenities.html.erb within layouts/application (3.9ms)
+I, [2017-01-25T14:55:19.078527 #70910]  INFO -- : [2f751946-a807-42b5-965c-03a08ed3da66] Completed 200 OK in 13ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+I, [2017-01-25T14:55:19.097682 #70910]  INFO -- : [ab57900b-5550-42f3-b3fc-8dfa717c95a4] Started GET "/assets/mycrossings-ceb7016329c3d652b00bdc291c29546d2666a99a6e49fe183f26a526aed2a304.jpg" for 127.0.0.1 at 2017-01-25 14:55:19 -0700
+I, [2017-01-25T14:55:19.103551 #70910]  INFO -- : [7d54c03a-fd3b-436d-a3aa-06edd8d656fb] Started GET "/assets/mountains-2893b9a5c60ad3ff891b548e790197641ea189260b54e1b261762f2719f64ade.jpg" for 127.0.0.1 at 2017-01-25 14:55:19 -0700
+I, [2017-01-25T14:55:19.106556 #70910]  INFO -- : [2436980b-a432-41d2-88eb-b3eb52abd048] Started GET "/assets/playgrounds-parks-eae3cae88a4b88e11a0af5c7db5d38c8b92d591dce7478cff2208857fd9f06d7.jpg" for 127.0.0.1 at 2017-01-25 14:55:19 -0700
+I, [2017-01-25T14:55:19.115305 #70910]  INFO -- : [18ec9428-f64f-4fa1-8794-ecee584adcec] Started GET "/assets/covered_bridge-83d6e11dcd5f27358becd4da61f8722ae10fc24d5b971dd5a15bdf284bd3bdb5.jpg" for 127.0.0.1 at 2017-01-25 14:55:19 -0700
+I, [2017-01-25T14:55:19.119050 #70910]  INFO -- : [c14cf622-114e-45a6-b632-b6b015931ac8] Started GET "/assets/fishing-pond-park-bbbcd115c34ef219803cf3db133053174e5c6443afa6e0a9d8f0ae3881bd6d36.jpg" for 127.0.0.1 at 2017-01-25 14:55:19 -0700
+I, [2017-01-25T14:55:19.134746 #70910]  INFO -- : [42e87973-f1d2-498f-90d8-bf5b267e1b5d] Started GET "/assets/mountains4.jpg" for 127.0.0.1 at 2017-01-25 14:55:19 -0700
+I, [2017-01-25T14:55:19.320513 #70910]  INFO -- : [4671ace3-cf4c-470c-a2b4-b538ff526cb6] Started GET "/assets/open-space-968aa225953d114eeee1a26981cd774837926143db2d53f8baf8c75ff48c039f.jpg" for 127.0.0.1 at 2017-01-25 14:55:19 -0700
+I, [2017-01-25T14:55:27.526892 #70910]  INFO -- : [17054960-f11d-472d-8961-1b8c2c4e61ef] Started GET "/heber_valley" for 127.0.0.1 at 2017-01-25 14:55:27 -0700
+I, [2017-01-25T14:55:27.558799 #70910]  INFO -- : [17054960-f11d-472d-8961-1b8c2c4e61ef] Processing by HomeController#heber_valley as HTML
+I, [2017-01-25T14:55:27.567162 #70910]  INFO -- : [17054960-f11d-472d-8961-1b8c2c4e61ef]   Rendering home/heber_valley.html.erb within layouts/application
+I, [2017-01-25T14:55:27.567871 #70910]  INFO -- : [17054960-f11d-472d-8961-1b8c2c4e61ef]   Rendered home/heber_valley.html.erb within layouts/application (0.5ms)
+I, [2017-01-25T14:55:27.571515 #70910]  INFO -- : [17054960-f11d-472d-8961-1b8c2c4e61ef] Completed 200 OK in 12ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+I, [2017-01-25T14:55:27.598457 #70910]  INFO -- : [eae04364-362a-4821-badd-c04e8ba2cc74] Started GET "/assets/ski.jpg" for 127.0.0.1 at 2017-01-25 14:55:27 -0700
+I, [2017-01-25T14:55:27.611077 #70910]  INFO -- : [105b3f0b-e611-44c5-89ad-526c285b7726] Started GET "/assets/rsz_golf.jpg" for 127.0.0.1 at 2017-01-25 14:55:27 -0700
+I, [2017-01-25T14:55:27.628941 #70910]  INFO -- : [b424ed07-fa33-4b16-8864-beffecdc0b74] Started GET "/assets/bike.jpg" for 127.0.0.1 at 2017-01-25 14:55:27 -0700
+I, [2017-01-25T14:55:32.669277 #70910]  INFO -- : [149bd81f-8cbf-4b61-a64e-018c1ff408ff] Started GET "/developer" for 127.0.0.1 at 2017-01-25 14:55:32 -0700
+I, [2017-01-25T14:55:32.719879 #70910]  INFO -- : [149bd81f-8cbf-4b61-a64e-018c1ff408ff] Processing by HomeController#developer as HTML
+I, [2017-01-25T14:55:32.722431 #70910]  INFO -- : [149bd81f-8cbf-4b61-a64e-018c1ff408ff]   Rendering home/developer.html.erb within layouts/application
+I, [2017-01-25T14:55:32.724466 #70910]  INFO -- : [149bd81f-8cbf-4b61-a64e-018c1ff408ff]   Rendered home/developer.html.erb within layouts/application (1.8ms)
+I, [2017-01-25T14:55:32.726250 #70910]  INFO -- : [149bd81f-8cbf-4b61-a64e-018c1ff408ff] Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+I, [2017-01-25T14:55:32.742870 #70910]  INFO -- : [6b057d97-f76d-4cc6-ba95-74432abb4409] Started GET "/assets/developer-bd3c3c03f9c70335937cc873c66fd834b479dc84982ef6dcf4fae3767f1666f1.jpg%20alt=" for 127.0.0.1 at 2017-01-25 14:55:32 -0700
+F, [2017-01-25T14:55:32.751657 #70910] FATAL -- : [6b057d97-f76d-4cc6-ba95-74432abb4409]   
+F, [2017-01-25T14:55:32.751755 #70910] FATAL -- : [6b057d97-f76d-4cc6-ba95-74432abb4409] ActionController::RoutingError (No route matches [GET] "/assets/developer-bd3c3c03f9c70335937cc873c66fd834b479dc84982ef6dcf4fae3767f1666f1.jpg%20alt="):
+F, [2017-01-25T14:55:32.751819 #70910] FATAL -- : [6b057d97-f76d-4cc6-ba95-74432abb4409]   
+F, [2017-01-25T14:55:32.751921 #70910] FATAL -- : [6b057d97-f76d-4cc6-ba95-74432abb4409] actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+[6b057d97-f76d-4cc6-ba95-74432abb4409] actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[6b057d97-f76d-4cc6-ba95-74432abb4409] railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+[6b057d97-f76d-4cc6-ba95-74432abb4409] railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+[6b057d97-f76d-4cc6-ba95-74432abb4409] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[6b057d97-f76d-4cc6-ba95-74432abb4409] activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+[6b057d97-f76d-4cc6-ba95-74432abb4409] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+[6b057d97-f76d-4cc6-ba95-74432abb4409] railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+[6b057d97-f76d-4cc6-ba95-74432abb4409] actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+[6b057d97-f76d-4cc6-ba95-74432abb4409] rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+[6b057d97-f76d-4cc6-ba95-74432abb4409] rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+[6b057d97-f76d-4cc6-ba95-74432abb4409] activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[6b057d97-f76d-4cc6-ba95-74432abb4409] actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[6b057d97-f76d-4cc6-ba95-74432abb4409] rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+[6b057d97-f76d-4cc6-ba95-74432abb4409] railties (5.0.1) lib/rails/engine.rb:522:in `call'
+[6b057d97-f76d-4cc6-ba95-74432abb4409] puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+[6b057d97-f76d-4cc6-ba95-74432abb4409] puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+[6b057d97-f76d-4cc6-ba95-74432abb4409] puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+[6b057d97-f76d-4cc6-ba95-74432abb4409] puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+[6b057d97-f76d-4cc6-ba95-74432abb4409] puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+I, [2017-01-25T14:55:49.584288 #70910]  INFO -- : [da04c425-392d-424d-8850-0de8a8a47ff5] Started GET "/" for 127.0.0.1 at 2017-01-25 14:55:49 -0700
+I, [2017-01-25T14:55:49.585843 #70910]  INFO -- : [da04c425-392d-424d-8850-0de8a8a47ff5] Processing by HomeController#index as HTML
+I, [2017-01-25T14:55:49.587670 #70910]  INFO -- : [da04c425-392d-424d-8850-0de8a8a47ff5]   Rendering home/index.html.erb within layouts/application
+I, [2017-01-25T14:55:49.612517 #70910]  INFO -- : [da04c425-392d-424d-8850-0de8a8a47ff5]   Rendered home/index.html.erb within layouts/application (24.7ms)
+I, [2017-01-25T14:55:49.619023 #70910]  INFO -- : [da04c425-392d-424d-8850-0de8a8a47ff5] Completed 200 OK in 33ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+I, [2017-01-25T14:55:49.628284 #70910]  INFO -- : [c33d5d6e-96ea-421f-b148-6e1543c352d9] Started GET "/assets/map.js" for 127.0.0.1 at 2017-01-25 14:55:49 -0700
+I, [2017-01-25T14:55:49.633980 #70910]  INFO -- : [65dbec21-96f3-44b0-b2ea-7c3c6cbe2fb0] Started GET "/assets/script.js" for 127.0.0.1 at 2017-01-25 14:55:49 -0700
+I, [2017-01-25T14:55:49.720728 #70910]  INFO -- : [b90f7a71-0a91-485c-b780-9b14bfbea814] Started GET "/assets/developer-bd3c3c03f9c70335937cc873c66fd834b479dc84982ef6dcf4fae3767f1666f1.jpg%20alt=" for 127.0.0.1 at 2017-01-25 14:55:49 -0700
+F, [2017-01-25T14:55:49.726706 #70910] FATAL -- : [b90f7a71-0a91-485c-b780-9b14bfbea814]   
+F, [2017-01-25T14:55:49.726802 #70910] FATAL -- : [b90f7a71-0a91-485c-b780-9b14bfbea814] ActionController::RoutingError (No route matches [GET] "/assets/developer-bd3c3c03f9c70335937cc873c66fd834b479dc84982ef6dcf4fae3767f1666f1.jpg%20alt="):
+F, [2017-01-25T14:55:49.726835 #70910] FATAL -- : [b90f7a71-0a91-485c-b780-9b14bfbea814]   
+F, [2017-01-25T14:55:49.726862 #70910] FATAL -- : [b90f7a71-0a91-485c-b780-9b14bfbea814] actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+[b90f7a71-0a91-485c-b780-9b14bfbea814] actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[b90f7a71-0a91-485c-b780-9b14bfbea814] railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+[b90f7a71-0a91-485c-b780-9b14bfbea814] railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+[b90f7a71-0a91-485c-b780-9b14bfbea814] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[b90f7a71-0a91-485c-b780-9b14bfbea814] activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+[b90f7a71-0a91-485c-b780-9b14bfbea814] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+[b90f7a71-0a91-485c-b780-9b14bfbea814] railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+[b90f7a71-0a91-485c-b780-9b14bfbea814] actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+[b90f7a71-0a91-485c-b780-9b14bfbea814] rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+[b90f7a71-0a91-485c-b780-9b14bfbea814] rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+[b90f7a71-0a91-485c-b780-9b14bfbea814] activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[b90f7a71-0a91-485c-b780-9b14bfbea814] actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[b90f7a71-0a91-485c-b780-9b14bfbea814] rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+[b90f7a71-0a91-485c-b780-9b14bfbea814] railties (5.0.1) lib/rails/engine.rb:522:in `call'
+[b90f7a71-0a91-485c-b780-9b14bfbea814] puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+[b90f7a71-0a91-485c-b780-9b14bfbea814] puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+[b90f7a71-0a91-485c-b780-9b14bfbea814] puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+[b90f7a71-0a91-485c-b780-9b14bfbea814] puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+[b90f7a71-0a91-485c-b780-9b14bfbea814] puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+I, [2017-01-25T14:55:49.847273 #70910]  INFO -- : [35410c8e-c286-48f0-9976-ef80613c8eaf] Started GET "/assets/map.js" for 127.0.0.1 at 2017-01-25 14:55:49 -0700
+I, [2017-01-25T14:55:49.852470 #70910]  INFO -- : [035c1854-b2f4-4cf2-a786-2ee959041cc2] Started GET "/assets/script.js" for 127.0.0.1 at 2017-01-25 14:55:49 -0700
+I, [2017-01-25T14:55:52.298077 #70910]  INFO -- : [48b36373-09a4-4eba-aa2e-b3840f2b8340] Started GET "/" for 127.0.0.1 at 2017-01-25 14:55:52 -0700
+I, [2017-01-25T14:55:52.300088 #70910]  INFO -- : [48b36373-09a4-4eba-aa2e-b3840f2b8340] Processing by HomeController#index as HTML
+I, [2017-01-25T14:55:52.304105 #70910]  INFO -- : [48b36373-09a4-4eba-aa2e-b3840f2b8340]   Rendering home/index.html.erb within layouts/application
+I, [2017-01-25T14:55:52.328471 #70910]  INFO -- : [48b36373-09a4-4eba-aa2e-b3840f2b8340]   Rendered home/index.html.erb within layouts/application (22.7ms)
+I, [2017-01-25T14:55:52.331605 #70910]  INFO -- : [48b36373-09a4-4eba-aa2e-b3840f2b8340] Completed 200 OK in 31ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+I, [2017-01-25T14:55:52.335805 #70910]  INFO -- : [d22b640d-a532-4124-ba7a-e55bb57ae2c9] Started GET "/assets/script.js" for 127.0.0.1 at 2017-01-25 14:55:52 -0700
+I, [2017-01-25T14:55:52.338482 #70910]  INFO -- : [5eedb40b-a00d-461e-b07e-1a6fef78ce81] Started GET "/assets/map.js" for 127.0.0.1 at 2017-01-25 14:55:52 -0700
+I, [2017-01-25T14:55:52.465146 #70910]  INFO -- : [8ae97c3d-e121-4322-8002-115654805150] Started GET "/assets/map.js" for 127.0.0.1 at 2017-01-25 14:55:52 -0700
+I, [2017-01-25T14:55:52.469160 #70910]  INFO -- : [7f609c30-7770-4234-9af5-5ac7c25aea4a] Started GET "/assets/script.js" for 127.0.0.1 at 2017-01-25 14:55:52 -0700
+I, [2017-01-25T14:55:55.005023 #70910]  INFO -- : [b46cecb7-e08e-402a-baba-854159fe47d5] Started GET "/" for 127.0.0.1 at 2017-01-25 14:55:55 -0700
+I, [2017-01-25T14:55:55.008037 #70910]  INFO -- : [b46cecb7-e08e-402a-baba-854159fe47d5] Processing by HomeController#index as HTML
+I, [2017-01-25T14:55:55.014140 #70910]  INFO -- : [b46cecb7-e08e-402a-baba-854159fe47d5]   Rendering home/index.html.erb within layouts/application
+I, [2017-01-25T14:55:55.033028 #70910]  INFO -- : [b46cecb7-e08e-402a-baba-854159fe47d5]   Rendered home/index.html.erb within layouts/application (18.4ms)
+I, [2017-01-25T14:55:55.036520 #70910]  INFO -- : [b46cecb7-e08e-402a-baba-854159fe47d5] Completed 200 OK in 28ms (Views: 24.8ms | ActiveRecord: 0.0ms)
+I, [2017-01-25T14:55:55.044467 #70910]  INFO -- : [8f0961ed-e6c1-4432-a649-5bdec9fe2c1c] Started GET "/assets/map.js" for 127.0.0.1 at 2017-01-25 14:55:55 -0700
+I, [2017-01-25T14:55:55.066867 #70910]  INFO -- : [d85dfeb9-4fab-4f17-881f-2229cc670982] Started GET "/assets/script.js" for 127.0.0.1 at 2017-01-25 14:55:55 -0700
+I, [2017-01-25T14:55:55.145093 #70910]  INFO -- : [44898b97-5f57-45e1-92e3-4cefc856c07c] Started GET "/assets/map.js" for 127.0.0.1 at 2017-01-25 14:55:55 -0700
+I, [2017-01-25T14:55:55.178607 #70910]  INFO -- : [de0b26b2-53ae-4621-b553-271c07ed4230] Started GET "/assets/script.js" for 127.0.0.1 at 2017-01-25 14:55:55 -0700
+I, [2017-01-25T14:55:58.090389 #70910]  INFO -- : [cd944aa0-537a-4ec9-aec9-fea5c327a71e] Started GET "/assets/design_guidelines.pdf" for 127.0.0.1 at 2017-01-25 14:55:58 -0700
+I, [2017-01-25T14:56:04.720007 #70910]  INFO -- : [cbbd96b5-e79d-40a4-a150-240c533e0f34] Started GET "/assets/recorded-bylaws.pdf" for 127.0.0.1 at 2017-01-25 14:56:04 -0700
+I, [2017-01-25T14:56:08.967888 #70910]  INFO -- : [0fa87ae8-0bcb-4c65-8227-25b00e60d4fc] Started GET "/assets/Recorded-Amended-CCRs.pdf" for 127.0.0.1 at 2017-01-25 14:56:08 -0700
+I, [2017-01-25T14:56:13.566308 #70910]  INFO -- : [a70a21c9-fc33-40a2-80cc-785f92ca71ab] Started GET "/assets/purchase-contract.pdf" for 127.0.0.1 at 2017-01-25 14:56:13 -0700
+I, [2017-01-25T14:56:20.564828 #70910]  INFO -- : [b03e3847-9911-471e-aa87-f81d195a4016] Started GET "/developer" for 127.0.0.1 at 2017-01-25 14:56:20 -0700
+I, [2017-01-25T14:56:20.577132 #70910]  INFO -- : [b03e3847-9911-471e-aa87-f81d195a4016] Processing by HomeController#developer as HTML
+I, [2017-01-25T14:56:20.590431 #70910]  INFO -- : [b03e3847-9911-471e-aa87-f81d195a4016]   Rendering home/developer.html.erb within layouts/application
+I, [2017-01-25T14:56:20.593519 #70910]  INFO -- : [b03e3847-9911-471e-aa87-f81d195a4016]   Rendered home/developer.html.erb within layouts/application (2.6ms)
+I, [2017-01-25T14:56:20.598695 #70910]  INFO -- : [b03e3847-9911-471e-aa87-f81d195a4016] Completed 200 OK in 21ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+I, [2017-01-25T14:56:20.602661 #70910]  INFO -- : [b0dff439-c488-409f-a317-5b3d81ce1c55] Started GET "/assets/developer-bd3c3c03f9c70335937cc873c66fd834b479dc84982ef6dcf4fae3767f1666f1.jpg%20alt=" for 127.0.0.1 at 2017-01-25 14:56:20 -0700
+F, [2017-01-25T14:56:20.607740 #70910] FATAL -- : [b0dff439-c488-409f-a317-5b3d81ce1c55]   
+F, [2017-01-25T14:56:20.607841 #70910] FATAL -- : [b0dff439-c488-409f-a317-5b3d81ce1c55] ActionController::RoutingError (No route matches [GET] "/assets/developer-bd3c3c03f9c70335937cc873c66fd834b479dc84982ef6dcf4fae3767f1666f1.jpg%20alt="):
+F, [2017-01-25T14:56:20.608012 #70910] FATAL -- : [b0dff439-c488-409f-a317-5b3d81ce1c55]   
+F, [2017-01-25T14:56:20.608089 #70910] FATAL -- : [b0dff439-c488-409f-a317-5b3d81ce1c55] actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+[b0dff439-c488-409f-a317-5b3d81ce1c55] actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[b0dff439-c488-409f-a317-5b3d81ce1c55] railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+[b0dff439-c488-409f-a317-5b3d81ce1c55] railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+[b0dff439-c488-409f-a317-5b3d81ce1c55] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[b0dff439-c488-409f-a317-5b3d81ce1c55] activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+[b0dff439-c488-409f-a317-5b3d81ce1c55] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+[b0dff439-c488-409f-a317-5b3d81ce1c55] railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+[b0dff439-c488-409f-a317-5b3d81ce1c55] actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+[b0dff439-c488-409f-a317-5b3d81ce1c55] rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+[b0dff439-c488-409f-a317-5b3d81ce1c55] rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+[b0dff439-c488-409f-a317-5b3d81ce1c55] activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[b0dff439-c488-409f-a317-5b3d81ce1c55] actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[b0dff439-c488-409f-a317-5b3d81ce1c55] rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+[b0dff439-c488-409f-a317-5b3d81ce1c55] railties (5.0.1) lib/rails/engine.rb:522:in `call'
+[b0dff439-c488-409f-a317-5b3d81ce1c55] puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+[b0dff439-c488-409f-a317-5b3d81ce1c55] puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+[b0dff439-c488-409f-a317-5b3d81ce1c55] puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+[b0dff439-c488-409f-a317-5b3d81ce1c55] puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+[b0dff439-c488-409f-a317-5b3d81ce1c55] puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+I, [2017-01-25T14:56:20.636652 #70910]  INFO -- : [6365638f-d7be-4a8a-9c71-e3e1df342e61] Started GET "/assets/developer-bd3c3c03f9c70335937cc873c66fd834b479dc84982ef6dcf4fae3767f1666f1.jpg%20alt=" for 127.0.0.1 at 2017-01-25 14:56:20 -0700
+F, [2017-01-25T14:56:20.639596 #70910] FATAL -- : [6365638f-d7be-4a8a-9c71-e3e1df342e61]   
+F, [2017-01-25T14:56:20.639693 #70910] FATAL -- : [6365638f-d7be-4a8a-9c71-e3e1df342e61] ActionController::RoutingError (No route matches [GET] "/assets/developer-bd3c3c03f9c70335937cc873c66fd834b479dc84982ef6dcf4fae3767f1666f1.jpg%20alt="):
+F, [2017-01-25T14:56:20.639841 #70910] FATAL -- : [6365638f-d7be-4a8a-9c71-e3e1df342e61]   
+F, [2017-01-25T14:56:20.639899 #70910] FATAL -- : [6365638f-d7be-4a8a-9c71-e3e1df342e61] actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+[6365638f-d7be-4a8a-9c71-e3e1df342e61] actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[6365638f-d7be-4a8a-9c71-e3e1df342e61] railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+[6365638f-d7be-4a8a-9c71-e3e1df342e61] railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+[6365638f-d7be-4a8a-9c71-e3e1df342e61] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[6365638f-d7be-4a8a-9c71-e3e1df342e61] activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+[6365638f-d7be-4a8a-9c71-e3e1df342e61] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+[6365638f-d7be-4a8a-9c71-e3e1df342e61] railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+[6365638f-d7be-4a8a-9c71-e3e1df342e61] actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+[6365638f-d7be-4a8a-9c71-e3e1df342e61] rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+[6365638f-d7be-4a8a-9c71-e3e1df342e61] rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+[6365638f-d7be-4a8a-9c71-e3e1df342e61] activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[6365638f-d7be-4a8a-9c71-e3e1df342e61] actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[6365638f-d7be-4a8a-9c71-e3e1df342e61] rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+[6365638f-d7be-4a8a-9c71-e3e1df342e61] railties (5.0.1) lib/rails/engine.rb:522:in `call'
+[6365638f-d7be-4a8a-9c71-e3e1df342e61] puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+[6365638f-d7be-4a8a-9c71-e3e1df342e61] puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+[6365638f-d7be-4a8a-9c71-e3e1df342e61] puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+[6365638f-d7be-4a8a-9c71-e3e1df342e61] puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+[6365638f-d7be-4a8a-9c71-e3e1df342e61] puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+I, [2017-01-25T14:58:12.315703 #70910]  INFO -- : [bd9ffb5c-7ac6-4c49-bf3c-4b7d48a4bf6b] Started GET "/developer" for 127.0.0.1 at 2017-01-25 14:58:12 -0700
+I, [2017-01-25T14:58:12.316710 #70910]  INFO -- : [bd9ffb5c-7ac6-4c49-bf3c-4b7d48a4bf6b] Processing by HomeController#developer as HTML
+I, [2017-01-25T14:58:12.317711 #70910]  INFO -- : [bd9ffb5c-7ac6-4c49-bf3c-4b7d48a4bf6b]   Rendering home/developer.html.erb within layouts/application
+I, [2017-01-25T14:58:12.317943 #70910]  INFO -- : [bd9ffb5c-7ac6-4c49-bf3c-4b7d48a4bf6b]   Rendered home/developer.html.erb within layouts/application (0.1ms)
+I, [2017-01-25T14:58:12.318730 #70910]  INFO -- : [bd9ffb5c-7ac6-4c49-bf3c-4b7d48a4bf6b] Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+I, [2017-01-25T14:58:12.386996 #70910]  INFO -- : [dab42642-8bee-4bf9-bf8c-f7518a07cc5e] Started GET "/assets/developer-bd3c3c03f9c70335937cc873c66fd834b479dc84982ef6dcf4fae3767f1666f1.jpg%20alt=" for 127.0.0.1 at 2017-01-25 14:58:12 -0700
+F, [2017-01-25T14:58:12.390266 #70910] FATAL -- : [dab42642-8bee-4bf9-bf8c-f7518a07cc5e]   
+F, [2017-01-25T14:58:12.390363 #70910] FATAL -- : [dab42642-8bee-4bf9-bf8c-f7518a07cc5e] ActionController::RoutingError (No route matches [GET] "/assets/developer-bd3c3c03f9c70335937cc873c66fd834b479dc84982ef6dcf4fae3767f1666f1.jpg%20alt="):
+F, [2017-01-25T14:58:12.390425 #70910] FATAL -- : [dab42642-8bee-4bf9-bf8c-f7518a07cc5e]   
+F, [2017-01-25T14:58:12.390495 #70910] FATAL -- : [dab42642-8bee-4bf9-bf8c-f7518a07cc5e] actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+[dab42642-8bee-4bf9-bf8c-f7518a07cc5e] actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[dab42642-8bee-4bf9-bf8c-f7518a07cc5e] railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+[dab42642-8bee-4bf9-bf8c-f7518a07cc5e] railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+[dab42642-8bee-4bf9-bf8c-f7518a07cc5e] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[dab42642-8bee-4bf9-bf8c-f7518a07cc5e] activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+[dab42642-8bee-4bf9-bf8c-f7518a07cc5e] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+[dab42642-8bee-4bf9-bf8c-f7518a07cc5e] railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+[dab42642-8bee-4bf9-bf8c-f7518a07cc5e] actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+[dab42642-8bee-4bf9-bf8c-f7518a07cc5e] rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+[dab42642-8bee-4bf9-bf8c-f7518a07cc5e] rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+[dab42642-8bee-4bf9-bf8c-f7518a07cc5e] activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[dab42642-8bee-4bf9-bf8c-f7518a07cc5e] actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[dab42642-8bee-4bf9-bf8c-f7518a07cc5e] rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+[dab42642-8bee-4bf9-bf8c-f7518a07cc5e] railties (5.0.1) lib/rails/engine.rb:522:in `call'
+[dab42642-8bee-4bf9-bf8c-f7518a07cc5e] puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+[dab42642-8bee-4bf9-bf8c-f7518a07cc5e] puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+[dab42642-8bee-4bf9-bf8c-f7518a07cc5e] puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+[dab42642-8bee-4bf9-bf8c-f7518a07cc5e] puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+[dab42642-8bee-4bf9-bf8c-f7518a07cc5e] puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+I, [2017-01-25T14:58:30.996244 #70940]  INFO -- : [d7fafb06-bf41-428a-863c-79ed9ea9b060] Started GET "/developer" for 127.0.0.1 at 2017-01-25 14:58:30 -0700
+I, [2017-01-25T14:58:31.014775 #70940]  INFO -- : [d7fafb06-bf41-428a-863c-79ed9ea9b060] Processing by HomeController#developer as HTML
+I, [2017-01-25T14:58:31.035106 #70940]  INFO -- : [d7fafb06-bf41-428a-863c-79ed9ea9b060]   Rendering home/developer.html.erb within layouts/application
+I, [2017-01-25T14:58:31.036480 #70940]  INFO -- : [d7fafb06-bf41-428a-863c-79ed9ea9b060]   Rendered home/developer.html.erb within layouts/application (1.0ms)
+I, [2017-01-25T14:58:31.044597 #70940]  INFO -- : [d7fafb06-bf41-428a-863c-79ed9ea9b060] Completed 200 OK in 30ms (Views: 16.1ms)
+I, [2017-01-25T14:58:31.134445 #70940]  INFO -- : [753be4ef-b070-4619-935f-94995c512c40] Started GET "/assets/developer-bd3c3c03f9c70335937cc873c66fd834b479dc84982ef6dcf4fae3767f1666f1.jpg" for 127.0.0.1 at 2017-01-25 14:58:31 -0700
+I, [2017-01-25T14:58:44.901731 #70940]  INFO -- : [c1c8f422-a51d-499c-9171-f2b616007b34] Started GET "/" for 127.0.0.1 at 2017-01-25 14:58:44 -0700
+I, [2017-01-25T14:58:44.903713 #70940]  INFO -- : [c1c8f422-a51d-499c-9171-f2b616007b34] Processing by HomeController#index as HTML
+I, [2017-01-25T14:58:44.930767 #70940]  INFO -- : [c1c8f422-a51d-499c-9171-f2b616007b34]   Rendering home/index.html.erb within layouts/application
+I, [2017-01-25T14:58:44.967586 #70940]  INFO -- : [c1c8f422-a51d-499c-9171-f2b616007b34]   Rendered home/index.html.erb within layouts/application (36.7ms)
+I, [2017-01-25T14:58:44.968628 #70940]  INFO -- : [c1c8f422-a51d-499c-9171-f2b616007b34] Completed 200 OK in 65ms (Views: 38.2ms | ActiveRecord: 2.1ms)
+I, [2017-01-25T14:58:45.401555 #70940]  INFO -- : [bf624553-3db7-4df7-9c6c-70db15b46bf0] Started GET "/assets/map.js" for 127.0.0.1 at 2017-01-25 14:58:45 -0700
+I, [2017-01-25T14:58:45.415670 #70940]  INFO -- : [15565c62-572a-4902-9e86-ca38d00bd680] Started GET "/assets/script.js" for 127.0.0.1 at 2017-01-25 14:58:45 -0700
+I, [2017-01-25T14:58:45.432966 #70940]  INFO -- : [f9a96377-6508-4f3a-b884-363d448094b0] Started GET "/assets/rsz_heber.jpg" for 127.0.0.1 at 2017-01-25 14:58:45 -0700
+I, [2017-01-25T14:59:07.805590 #70940]  INFO -- : [58567fc4-ea14-4190-a3bb-c7ed29b9be71] Started POST "/posts" for 127.0.0.1 at 2017-01-25 14:59:07 -0700
+I, [2017-01-25T14:59:07.809455 #70940]  INFO -- : [58567fc4-ea14-4190-a3bb-c7ed29b9be71] Processing by PostsController#create as HTML
+I, [2017-01-25T14:59:07.810482 #70940]  INFO -- : [58567fc4-ea14-4190-a3bb-c7ed29b9be71]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"Tv6OpR1sN+uy1dvODAr6aMwLID60tXY00DlDR6kX1c+0/0azVZMFCwYdlLH3eC3W1UVS9vJb4jw4uUqCC97LXg==", "post"=>{"first_name"=>"Irina", "last_name"=>"O'Hara", "email"=>"tutoring@list.ru", "phone"=>"3369126371", "message"=>"works?"}, "commit"=>"Send Message"}
+D, [2017-01-25T14:59:07.814519 #70940] DEBUG -- : [58567fc4-ea14-4190-a3bb-c7ed29b9be71]   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2017-01-25T14:59:07.827875 #70940] DEBUG -- : [58567fc4-ea14-4190-a3bb-c7ed29b9be71]   [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO "posts" ("first_name", "last_name", "email", "phone", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Irina"], ["last_name", "O'Hara"], ["email", "tutoring@list.ru"], ["phone", "3369126371"], ["message", "works?"], ["created_at", 2017-01-25 21:59:07 UTC], ["updated_at", 2017-01-25 21:59:07 UTC]]
+D, [2017-01-25T14:59:07.829961 #70940] DEBUG -- : [58567fc4-ea14-4190-a3bb-c7ed29b9be71]   [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+I, [2017-01-25T14:59:07.876402 #70940]  INFO -- : [58567fc4-ea14-4190-a3bb-c7ed29b9be71] [ActiveJob] Enqueued ActionMailer::DeliveryJob (Job ID: ac62e508-c194-40e1-91ee-5ad03084129e) to Async(mailers) with arguments: "PostMailer", "contact_us", "deliver_now", #<GlobalID:0x007fe4d4de5538 @uri=#<URI::GID gid://crossings/Post/1>>
+D, [2017-01-25T14:59:07.884893 #70940] DEBUG -- :   [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+I, [2017-01-25T14:59:07.885721 #70940]  INFO -- : [58567fc4-ea14-4190-a3bb-c7ed29b9be71] Redirected to http://localhost:3000/
+I, [2017-01-25T14:59:07.886888 #70940]  INFO -- : [58567fc4-ea14-4190-a3bb-c7ed29b9be71] Completed 302 Found in 76ms (ActiveRecord: 3.1ms)
+I, [2017-01-25T14:59:07.889840 #70940]  INFO -- : [ActiveJob] [ActionMailer::DeliveryJob] [ac62e508-c194-40e1-91ee-5ad03084129e] Performing ActionMailer::DeliveryJob from Async(mailers) with arguments: "PostMailer", "contact_us", "deliver_now", #<GlobalID:0x007fe4db0a97f0 @uri=#<URI::GID gid://crossings/Post/1>>
+I, [2017-01-25T14:59:07.896730 #70940]  INFO -- : [aa6d1824-2688-43c0-a081-79c53bd4802b] Started GET "/" for 127.0.0.1 at 2017-01-25 14:59:07 -0700
+I, [2017-01-25T14:59:07.899305 #70940]  INFO -- : [aa6d1824-2688-43c0-a081-79c53bd4802b] Processing by HomeController#index as HTML
+I, [2017-01-25T14:59:07.901221 #70940]  INFO -- : [aa6d1824-2688-43c0-a081-79c53bd4802b]   Rendering home/index.html.erb within layouts/application
+I, [2017-01-25T14:59:07.910381 #70940]  INFO -- : [aa6d1824-2688-43c0-a081-79c53bd4802b]   Rendered home/index.html.erb within layouts/application (7.6ms)
+I, [2017-01-25T14:59:07.913176 #70940]  INFO -- : [aa6d1824-2688-43c0-a081-79c53bd4802b] Completed 200 OK in 14ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+I, [2017-01-25T14:59:08.010703 #70940]  INFO -- : [0f06a1f4-dc24-4998-89a7-d3996f5c8665] Started GET "/assets/map.js" for 127.0.0.1 at 2017-01-25 14:59:08 -0700
+I, [2017-01-25T14:59:08.025194 #70940]  INFO -- : [23e965d1-d2f8-467c-9f29-e67409223336] Started GET "/assets/script.js" for 127.0.0.1 at 2017-01-25 14:59:08 -0700
+I, [2017-01-25T14:59:08.157706 #70940]  INFO -- : [9f0507a7-87bd-4b2b-9dc8-f67932768046] Started GET "/assets/rsz_heber.jpg" for 127.0.0.1 at 2017-01-25 14:59:08 -0700
+D, [2017-01-25T14:59:08.273711 #70940] DEBUG -- : [ActiveJob] [ActionMailer::DeliveryJob] [ac62e508-c194-40e1-91ee-5ad03084129e] PostMailer#contact_us: processed outbound mail in 383.1ms
+I, [2017-01-25T14:59:08.282980 #70940]  INFO -- : [ActiveJob] [ActionMailer::DeliveryJob] [ac62e508-c194-40e1-91ee-5ad03084129e] Sent mail to  (9.1ms)
+D, [2017-01-25T14:59:08.283063 #70940] DEBUG -- : [ActiveJob] [ActionMailer::DeliveryJob] [ac62e508-c194-40e1-91ee-5ad03084129e] Date: Wed, 25 Jan 2017 14:59:08 -0700
+Message-ID: <58891fac43e35_1151c3ff26a6f2934579d4@Irinas-MacBook-Pro.local.mail>
+Subject: New Message from The Crossings Contact Us page
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+The following message is from: Irina O'Hara
+  				works?
+  				Contact Information:
+  				Phone: 3369126371 
+  				Email: tutoring@list.ru
+I, [2017-01-25T14:59:08.283218 #70940]  INFO -- : [ActiveJob] [ActionMailer::DeliveryJob] [ac62e508-c194-40e1-91ee-5ad03084129e] Performed ActionMailer::DeliveryJob from Async(mailers) in 393.17ms
+I, [2017-01-25T15:01:43.390192 #70940]  INFO -- : [70f62999-7835-479d-b71f-ee4917790378] Started GET "/admin" for 127.0.0.1 at 2017-01-25 15:01:43 -0700
+I, [2017-01-25T15:01:43.410001 #70940]  INFO -- : [70f62999-7835-479d-b71f-ee4917790378] Processing by Admin::PostsController#index as HTML
+I, [2017-01-25T15:01:43.418114 #70940]  INFO -- : [70f62999-7835-479d-b71f-ee4917790378] Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+F, [2017-01-25T15:01:43.421362 #70940] FATAL -- : [70f62999-7835-479d-b71f-ee4917790378]   
+F, [2017-01-25T15:01:43.421446 #70940] FATAL -- : [70f62999-7835-479d-b71f-ee4917790378] TypeError (no implicit conversion of nil into String):
+F, [2017-01-25T15:01:43.421485 #70940] FATAL -- : [70f62999-7835-479d-b71f-ee4917790378]   
+F, [2017-01-25T15:01:43.421638 #70940] FATAL -- : [70f62999-7835-479d-b71f-ee4917790378] activesupport (5.0.1) lib/active_support/security_utils.rb:23:in `digest'
+[70f62999-7835-479d-b71f-ee4917790378] activesupport (5.0.1) lib/active_support/security_utils.rb:23:in `hexdigest'
+[70f62999-7835-479d-b71f-ee4917790378] activesupport (5.0.1) lib/active_support/security_utils.rb:23:in `variable_size_secure_compare'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/action_controller/metal/http_authentication.rb:75:in `block (2 levels) in http_basic_authenticate_with'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/action_controller/metal/http_authentication.rb:97:in `authenticate'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/action_controller/metal/http_authentication.rb:87:in `authenticate_with_http_basic'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/action_controller/metal/http_authentication.rb:83:in `authenticate_or_request_with_http_basic'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/action_controller/metal/http_authentication.rb:71:in `block in http_basic_authenticate_with'
+[70f62999-7835-479d-b71f-ee4917790378] activesupport (5.0.1) lib/active_support/callbacks.rb:396:in `instance_exec'
+[70f62999-7835-479d-b71f-ee4917790378] activesupport (5.0.1) lib/active_support/callbacks.rb:396:in `block in make_lambda'
+[70f62999-7835-479d-b71f-ee4917790378] activesupport (5.0.1) lib/active_support/callbacks.rb:169:in `block (2 levels) in halting'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/abstract_controller/callbacks.rb:12:in `block (2 levels) in <module:Callbacks>'
+[70f62999-7835-479d-b71f-ee4917790378] activesupport (5.0.1) lib/active_support/callbacks.rb:170:in `block in halting'
+[70f62999-7835-479d-b71f-ee4917790378] activesupport (5.0.1) lib/active_support/callbacks.rb:454:in `block in call'
+[70f62999-7835-479d-b71f-ee4917790378] activesupport (5.0.1) lib/active_support/callbacks.rb:454:in `each'
+[70f62999-7835-479d-b71f-ee4917790378] activesupport (5.0.1) lib/active_support/callbacks.rb:454:in `call'
+[70f62999-7835-479d-b71f-ee4917790378] activesupport (5.0.1) lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+[70f62999-7835-479d-b71f-ee4917790378] activesupport (5.0.1) lib/active_support/callbacks.rb:750:in `_run_process_action_callbacks'
+[70f62999-7835-479d-b71f-ee4917790378] activesupport (5.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/action_controller/metal/rescue.rb:20:in `process_action'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+[70f62999-7835-479d-b71f-ee4917790378] activesupport (5.0.1) lib/active_support/notifications.rb:164:in `block in instrument'
+[70f62999-7835-479d-b71f-ee4917790378] activesupport (5.0.1) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+[70f62999-7835-479d-b71f-ee4917790378] activesupport (5.0.1) lib/active_support/notifications.rb:164:in `instrument'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/action_controller/metal/params_wrapper.rb:248:in `process_action'
+[70f62999-7835-479d-b71f-ee4917790378] activerecord (5.0.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/abstract_controller/base.rb:126:in `process'
+[70f62999-7835-479d-b71f-ee4917790378] actionview (5.0.1) lib/action_view/rendering.rb:30:in `process'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/action_controller/metal.rb:190:in `dispatch'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/action_controller/metal.rb:262:in `dispatch'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/action_dispatch/journey/router.rb:26:in `each'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/action_dispatch/journey/router.rb:26:in `serve'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:725:in `call'
+[70f62999-7835-479d-b71f-ee4917790378] rack (2.0.1) lib/rack/etag.rb:25:in `call'
+[70f62999-7835-479d-b71f-ee4917790378] rack (2.0.1) lib/rack/conditional_get.rb:25:in `call'
+[70f62999-7835-479d-b71f-ee4917790378] rack (2.0.1) lib/rack/head.rb:12:in `call'
+[70f62999-7835-479d-b71f-ee4917790378] rack (2.0.1) lib/rack/session/abstract/id.rb:222:in `context'
+[70f62999-7835-479d-b71f-ee4917790378] rack (2.0.1) lib/rack/session/abstract/id.rb:216:in `call'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+[70f62999-7835-479d-b71f-ee4917790378] activesupport (5.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+[70f62999-7835-479d-b71f-ee4917790378] activesupport (5.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+[70f62999-7835-479d-b71f-ee4917790378] activesupport (5.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[70f62999-7835-479d-b71f-ee4917790378] railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+[70f62999-7835-479d-b71f-ee4917790378] railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+[70f62999-7835-479d-b71f-ee4917790378] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[70f62999-7835-479d-b71f-ee4917790378] activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+[70f62999-7835-479d-b71f-ee4917790378] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+[70f62999-7835-479d-b71f-ee4917790378] railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+[70f62999-7835-479d-b71f-ee4917790378] rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+[70f62999-7835-479d-b71f-ee4917790378] rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+[70f62999-7835-479d-b71f-ee4917790378] activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[70f62999-7835-479d-b71f-ee4917790378] actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[70f62999-7835-479d-b71f-ee4917790378] rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+[70f62999-7835-479d-b71f-ee4917790378] railties (5.0.1) lib/rails/engine.rb:522:in `call'
+[70f62999-7835-479d-b71f-ee4917790378] puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+[70f62999-7835-479d-b71f-ee4917790378] puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+[70f62999-7835-479d-b71f-ee4917790378] puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+[70f62999-7835-479d-b71f-ee4917790378] puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+[70f62999-7835-479d-b71f-ee4917790378] puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+I, [2017-01-25T15:09:50.534655 #70940]  INFO -- : [47a328a3-9398-49bd-91b2-832f77dc5b70] Started GET "/" for 127.0.0.1 at 2017-01-25 15:09:50 -0700
+I, [2017-01-25T15:09:50.574889 #70940]  INFO -- : [47a328a3-9398-49bd-91b2-832f77dc5b70] Processing by HomeController#index as HTML
+I, [2017-01-25T15:09:50.653552 #70940]  INFO -- : [47a328a3-9398-49bd-91b2-832f77dc5b70]   Rendering home/index.html.erb within layouts/application
+I, [2017-01-25T15:09:50.697379 #70940]  INFO -- : [47a328a3-9398-49bd-91b2-832f77dc5b70]   Rendered home/index.html.erb within layouts/application (43.6ms)
+I, [2017-01-25T15:09:50.701125 #70940]  INFO -- : [47a328a3-9398-49bd-91b2-832f77dc5b70] Completed 200 OK in 126ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+I, [2017-01-25T15:09:50.728209 #70940]  INFO -- : [a6f5d7e9-0dc5-4488-ac2b-3c0c31f4b676] Started GET "/assets/map.js" for 127.0.0.1 at 2017-01-25 15:09:50 -0700
+I, [2017-01-25T15:09:50.742215 #70940]  INFO -- : [4974fe9b-c4c8-49dd-86e1-c86665ad138b] Started GET "/assets/script.js" for 127.0.0.1 at 2017-01-25 15:09:50 -0700
+I, [2017-01-25T15:09:58.001285 #70940]  INFO -- : [7adc121a-1ffb-4297-b25d-ed25783c6660] Started POST "/posts" for 127.0.0.1 at 2017-01-25 15:09:58 -0700
+I, [2017-01-25T15:09:58.003419 #70940]  INFO -- : [7adc121a-1ffb-4297-b25d-ed25783c6660] Processing by PostsController#create as HTML
+I, [2017-01-25T15:09:58.003713 #70940]  INFO -- : [7adc121a-1ffb-4297-b25d-ed25783c6660]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"0gotMJvogQmF0gXhGxjFAs4XO7pyuvH8mXgmyroJF34oC+Um0xez6TEaSp7gahK811lJcjRUZfRx+C8PGMAJ7w==", "post"=>{"first_name"=>"Irina", "last_name"=>"O'Hara", "email"=>"tutoring@list.ru", "phone"=>"3369126371", "message"=>"work?"}, "commit"=>"Send Message"}
+D, [2017-01-25T15:09:58.016305 #70940] DEBUG -- : [7adc121a-1ffb-4297-b25d-ed25783c6660]   [1m[35m (2.9ms)[0m  [1m[36mbegin transaction[0m
+D, [2017-01-25T15:09:58.031891 #70940] DEBUG -- : [7adc121a-1ffb-4297-b25d-ed25783c6660]   [1m[35mSQL (2.5ms)[0m  [1m[32mINSERT INTO "posts" ("first_name", "last_name", "email", "phone", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Irina"], ["last_name", "O'Hara"], ["email", "tutoring@list.ru"], ["phone", "3369126371"], ["message", "work?"], ["created_at", 2017-01-25 22:09:58 UTC], ["updated_at", 2017-01-25 22:09:58 UTC]]
+D, [2017-01-25T15:09:58.036297 #70940] DEBUG -- : [7adc121a-1ffb-4297-b25d-ed25783c6660]   [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+D, [2017-01-25T15:09:58.050018 #70940] DEBUG -- :   [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+I, [2017-01-25T15:09:58.051788 #70940]  INFO -- : [ActiveJob] [ActionMailer::DeliveryJob] [1bef77c8-6093-42b7-a5e6-93bd9bf2b5ef] Performing ActionMailer::DeliveryJob from Async(mailers) with arguments: "PostMailer", "contact_us", "deliver_now", #<GlobalID:0x007fe4db5907a0 @uri=#<URI::GID gid://crossings/Post/2>>
+D, [2017-01-25T15:09:58.059256 #70940] DEBUG -- : [ActiveJob] [ActionMailer::DeliveryJob] [1bef77c8-6093-42b7-a5e6-93bd9bf2b5ef] PostMailer#contact_us: processed outbound mail in 4.9ms
+I, [2017-01-25T15:09:58.059575 #70940]  INFO -- : [7adc121a-1ffb-4297-b25d-ed25783c6660] [ActiveJob] Enqueued ActionMailer::DeliveryJob (Job ID: 1bef77c8-6093-42b7-a5e6-93bd9bf2b5ef) to Async(mailers) with arguments: "PostMailer", "contact_us", "deliver_now", #<GlobalID:0x007fe4dbdf2da8 @uri=#<URI::GID gid://crossings/Post/2>>
+I, [2017-01-25T15:09:58.069848 #70940]  INFO -- : [ActiveJob] [ActionMailer::DeliveryJob] [1bef77c8-6093-42b7-a5e6-93bd9bf2b5ef] Sent mail to  (10.0ms)
+I, [2017-01-25T15:09:58.070809 #70940]  INFO -- : [7adc121a-1ffb-4297-b25d-ed25783c6660] Redirected to http://localhost:3000/
+D, [2017-01-25T15:09:58.070891 #70940] DEBUG -- : [ActiveJob] [ActionMailer::DeliveryJob] [1bef77c8-6093-42b7-a5e6-93bd9bf2b5ef] Date: Wed, 25 Jan 2017 15:09:58 -0700
+Message-ID: <5889223610206_1151c3ff26a6f29345803c@Irinas-MacBook-Pro.local.mail>
+Subject: New Message from The Crossings Contact Us page
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+The following message is from: Irina O'Hara
+  				work?
+  				Contact Information:
+  				Phone: 3369126371 
+  				Email: tutoring@list.ru
+I, [2017-01-25T15:09:58.071168 #70940]  INFO -- : [7adc121a-1ffb-4297-b25d-ed25783c6660] Completed 302 Found in 67ms (ActiveRecord: 8.6ms)
+I, [2017-01-25T15:09:58.071534 #70940]  INFO -- : [ActiveJob] [ActionMailer::DeliveryJob] [1bef77c8-6093-42b7-a5e6-93bd9bf2b5ef] Performed ActionMailer::DeliveryJob from Async(mailers) in 19.56ms
+I, [2017-01-25T15:09:58.080263 #70940]  INFO -- : [2152d519-6e94-4af8-9549-395105af1d2a] Started GET "/" for 127.0.0.1 at 2017-01-25 15:09:58 -0700
+I, [2017-01-25T15:09:58.081267 #70940]  INFO -- : [2152d519-6e94-4af8-9549-395105af1d2a] Processing by HomeController#index as HTML
+I, [2017-01-25T15:09:58.082732 #70940]  INFO -- : [2152d519-6e94-4af8-9549-395105af1d2a]   Rendering home/index.html.erb within layouts/application
+I, [2017-01-25T15:09:58.091305 #70940]  INFO -- : [2152d519-6e94-4af8-9549-395105af1d2a]   Rendered home/index.html.erb within layouts/application (8.4ms)
+I, [2017-01-25T15:09:58.092214 #70940]  INFO -- : [2152d519-6e94-4af8-9549-395105af1d2a] Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+I, [2017-01-25T15:09:58.175946 #70940]  INFO -- : [4ea4e198-dcb1-41e3-a8e3-045da7bb512b] Started GET "/assets/map.js" for 127.0.0.1 at 2017-01-25 15:09:58 -0700
+I, [2017-01-25T15:09:58.267550 #70940]  INFO -- : [81d9f3cb-e9ea-4d5f-8f14-a92bacc5d9ed] Started GET "/assets/script.js" for 127.0.0.1 at 2017-01-25 15:09:58 -0700
+I, [2017-01-25T15:09:58.284855 #70940]  INFO -- : [8c9d98b9-74a0-4d80-bd20-cb20f3616248] Started GET "/assets/rsz_heber.jpg" for 127.0.0.1 at 2017-01-25 15:09:58 -0700
+I, [2017-01-25T15:10:02.757723 #70940]  INFO -- : [f2f8d166-a38c-492d-8e7c-a6890f5e4f1c] Started GET "/" for 127.0.0.1 at 2017-01-25 15:10:02 -0700
+I, [2017-01-25T15:10:02.758347 #70940]  INFO -- : [f2f8d166-a38c-492d-8e7c-a6890f5e4f1c] Processing by HomeController#index as HTML
+I, [2017-01-25T15:10:02.759458 #70940]  INFO -- : [f2f8d166-a38c-492d-8e7c-a6890f5e4f1c]   Rendering home/index.html.erb within layouts/application
+I, [2017-01-25T15:10:02.767429 #70940]  INFO -- : [f2f8d166-a38c-492d-8e7c-a6890f5e4f1c]   Rendered home/index.html.erb within layouts/application (7.7ms)
+I, [2017-01-25T15:10:02.769273 #70940]  INFO -- : [f2f8d166-a38c-492d-8e7c-a6890f5e4f1c] Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+I, [2017-01-25T15:10:02.824452 #70940]  INFO -- : [97504b30-9e62-4858-86f2-71cc2c2d7b71] Started GET "/assets/map.js" for 127.0.0.1 at 2017-01-25 15:10:02 -0700
+I, [2017-01-25T15:10:02.826551 #70940]  INFO -- : [d44a4335-2c02-457d-afbc-5c54a49a9949] Started GET "/assets/script.js" for 127.0.0.1 at 2017-01-25 15:10:02 -0700
+I, [2017-01-25T15:11:53.579411 #71011]  INFO -- : [48db252e-ee5d-47ae-89f2-349f1b50167c] Started GET "/" for 127.0.0.1 at 2017-01-25 15:11:53 -0700
+I, [2017-01-25T15:11:53.587533 #71011]  INFO -- : [48db252e-ee5d-47ae-89f2-349f1b50167c] Processing by HomeController#index as HTML
+I, [2017-01-25T15:11:53.654648 #71011]  INFO -- : [48db252e-ee5d-47ae-89f2-349f1b50167c]   Rendering home/index.html.erb within layouts/application
+I, [2017-01-25T15:11:53.687564 #71011]  INFO -- : [cb4da3d2-8a64-4f8c-accf-74c1990c6b28] Started GET "/assets/map.js" for 127.0.0.1 at 2017-01-25 15:11:53 -0700
+I, [2017-01-25T15:11:53.887104 #71011]  INFO -- : [68dbf259-6c19-49d3-bfde-fbc08fc629de] Started GET "/assets/script.js" for 127.0.0.1 at 2017-01-25 15:11:53 -0700
+I, [2017-01-25T15:11:54.328113 #71011]  INFO -- : [48db252e-ee5d-47ae-89f2-349f1b50167c]   Rendered home/index.html.erb within layouts/application (673.1ms)
+I, [2017-01-25T15:11:54.331754 #71011]  INFO -- : [48db252e-ee5d-47ae-89f2-349f1b50167c] Completed 200 OK in 744ms (Views: 686.0ms | ActiveRecord: 3.0ms)
+I, [2017-01-25T15:11:54.363133 #71011]  INFO -- : [4d394630-d568-46fb-86f5-751ffda74c23] Started GET "/assets/map.js" for 127.0.0.1 at 2017-01-25 15:11:54 -0700
+I, [2017-01-25T15:11:54.367561 #71011]  INFO -- : [81e74419-2f1a-48e8-822f-262286bcd2ca] Started GET "/assets/script.js" for 127.0.0.1 at 2017-01-25 15:11:54 -0700
+I, [2017-01-25T15:12:01.064951 #71011]  INFO -- : [b4259408-239f-402c-a205-147cbb5566af] Started POST "/posts" for 127.0.0.1 at 2017-01-25 15:12:01 -0700
+I, [2017-01-25T15:12:01.068040 #71011]  INFO -- : [b4259408-239f-402c-a205-147cbb5566af] Processing by PostsController#create as HTML
+I, [2017-01-25T15:12:01.068188 #71011]  INFO -- : [b4259408-239f-402c-a205-147cbb5566af]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"8iPLMTfkymqlCumFp41vmCsA7ycxuqjcJ/g+1EXgiKkIIgMnfxv4ihHCpvpc/7gmMk6d73dUPNTPeDcR5ymWOA==", "post"=>{"first_name"=>"Irina", "last_name"=>"O'Hara", "email"=>"tutoring@list.ru", "phone"=>"3369126371", "message"=>"now?"}, "commit"=>"Send Message"}
+D, [2017-01-25T15:12:01.071673 #71011] DEBUG -- : [b4259408-239f-402c-a205-147cbb5566af]   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2017-01-25T15:12:01.082466 #71011] DEBUG -- : [b4259408-239f-402c-a205-147cbb5566af]   [1m[35mSQL (4.2ms)[0m  [1m[32mINSERT INTO "posts" ("first_name", "last_name", "email", "phone", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Irina"], ["last_name", "O'Hara"], ["email", "tutoring@list.ru"], ["phone", "3369126371"], ["message", "now?"], ["created_at", 2017-01-25 22:12:01 UTC], ["updated_at", 2017-01-25 22:12:01 UTC]]
+D, [2017-01-25T15:12:01.085368 #71011] DEBUG -- : [b4259408-239f-402c-a205-147cbb5566af]   [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+I, [2017-01-25T15:12:01.097618 #71011]  INFO -- : [b4259408-239f-402c-a205-147cbb5566af] [ActiveJob] Enqueued ActionMailer::DeliveryJob (Job ID: 87ff223c-67e2-4429-b90c-ac90cee3a56e) to Async(mailers) with arguments: "PostMailer", "contact_us", "deliver_now", #<GlobalID:0x007faa715f9cb8 @uri=#<URI::GID gid://crossings/Post/3>>
+I, [2017-01-25T15:12:01.101167 #71011]  INFO -- : [b4259408-239f-402c-a205-147cbb5566af] Redirected to http://localhost:3000/
+D, [2017-01-25T15:12:01.113414 #71011] DEBUG -- :   [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+I, [2017-01-25T15:12:01.113712 #71011]  INFO -- : [b4259408-239f-402c-a205-147cbb5566af] Completed 302 Found in 45ms (ActiveRecord: 5.9ms)
+I, [2017-01-25T15:12:01.116996 #71011]  INFO -- : [ActiveJob] [ActionMailer::DeliveryJob] [87ff223c-67e2-4429-b90c-ac90cee3a56e] Performing ActionMailer::DeliveryJob from Async(mailers) with arguments: "PostMailer", "contact_us", "deliver_now", #<GlobalID:0x007faa77b22db0 @uri=#<URI::GID gid://crossings/Post/3>>
+I, [2017-01-25T15:12:01.146821 #71011]  INFO -- : [33b79fe4-d166-4089-821d-315c0acc63d6] Started GET "/" for 127.0.0.1 at 2017-01-25 15:12:01 -0700
+I, [2017-01-25T15:12:01.147768 #71011]  INFO -- : [33b79fe4-d166-4089-821d-315c0acc63d6] Processing by HomeController#index as HTML
+I, [2017-01-25T15:12:01.149197 #71011]  INFO -- : [33b79fe4-d166-4089-821d-315c0acc63d6]   Rendering home/index.html.erb within layouts/application
+I, [2017-01-25T15:12:01.167220 #71011]  INFO -- : [33b79fe4-d166-4089-821d-315c0acc63d6]   Rendered home/index.html.erb within layouts/application (8.3ms)
+I, [2017-01-25T15:12:01.167985 #71011]  INFO -- : [33b79fe4-d166-4089-821d-315c0acc63d6] Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+I, [2017-01-25T15:12:01.261760 #71011]  INFO -- : [e41f4694-582e-4a3b-8983-d6bb1bafbd92] Started GET "/assets/map.js" for 127.0.0.1 at 2017-01-25 15:12:01 -0700
+I, [2017-01-25T15:12:01.313735 #71011]  INFO -- : [57a39a76-cc98-4859-98aa-a41596e14a28] Started GET "/assets/script.js" for 127.0.0.1 at 2017-01-25 15:12:01 -0700
+I, [2017-01-25T15:12:01.427431 #71011]  INFO -- : [425be33e-802f-4c04-bf70-07888e5e3c57] Started GET "/assets/rsz_heber.jpg" for 127.0.0.1 at 2017-01-25 15:12:01 -0700
+D, [2017-01-25T15:12:01.502272 #71011] DEBUG -- : [ActiveJob] [ActionMailer::DeliveryJob] [87ff223c-67e2-4429-b90c-ac90cee3a56e] PostMailer#contact_us: processed outbound mail in 383.3ms
+I, [2017-01-25T15:12:01.512666 #71011]  INFO -- : [ActiveJob] [ActionMailer::DeliveryJob] [87ff223c-67e2-4429-b90c-ac90cee3a56e] Sent mail to  (10.2ms)
+D, [2017-01-25T15:12:01.512726 #71011] DEBUG -- : [ActiveJob] [ActionMailer::DeliveryJob] [87ff223c-67e2-4429-b90c-ac90cee3a56e] Date: Wed, 25 Jan 2017 15:12:01 -0700
+Message-ID: <588922b17bcb0_115633fd538afccf42133@Irinas-MacBook-Pro.local.mail>
+Subject: New Message from The Crossings Contact Us page
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+The following message is from: Irina O'Hara
+  				now?
+  				Contact Information:
+  				Phone: 3369126371 
+  				Email: tutoring@list.ru
+I, [2017-01-25T15:12:01.512839 #71011]  INFO -- : [ActiveJob] [ActionMailer::DeliveryJob] [87ff223c-67e2-4429-b90c-ac90cee3a56e] Performed ActionMailer::DeliveryJob from Async(mailers) in 394.42ms
+I, [2017-01-25T15:15:02.053223 #71011]  INFO -- : [96204ba5-e2e8-41c7-958f-0546ed07483f] Started GET "/" for 127.0.0.1 at 2017-01-25 15:15:02 -0700
+I, [2017-01-25T15:15:02.067518 #71011]  INFO -- : [96204ba5-e2e8-41c7-958f-0546ed07483f] Processing by HomeController#index as HTML
+I, [2017-01-25T15:15:02.085978 #71011]  INFO -- : [96204ba5-e2e8-41c7-958f-0546ed07483f]   Rendering home/index.html.erb within layouts/application
+I, [2017-01-25T15:15:02.112251 #71011]  INFO -- : [96204ba5-e2e8-41c7-958f-0546ed07483f]   Rendered home/index.html.erb within layouts/application (25.7ms)
+I, [2017-01-25T15:15:02.117479 #71011]  INFO -- : [96204ba5-e2e8-41c7-958f-0546ed07483f] Completed 200 OK in 49ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+I, [2017-01-25T15:15:02.191522 #71011]  INFO -- : [2ede73c1-66a2-4054-95f4-e04ee4dac575] Started GET "/assets/map.js" for 127.0.0.1 at 2017-01-25 15:15:02 -0700
+I, [2017-01-25T15:15:02.217168 #71011]  INFO -- : [25bc2f02-3f2d-4125-8cbe-1f82083bdbe5] Started GET "/assets/script.js" for 127.0.0.1 at 2017-01-25 15:15:02 -0700
+I, [2017-01-25T15:15:02.470196 #71011]  INFO -- : [6613a312-352f-4ce3-b51d-98342e8c89d5] Started GET "/assets/rsz_heber.jpg" for 127.0.0.1 at 2017-01-25 15:15:02 -0700
+I, [2017-01-25T15:15:03.699400 #71011]  INFO -- : [15c4a0ad-997d-45f5-9501-6ebbe37e44b7] Started GET "/" for 127.0.0.1 at 2017-01-25 15:15:03 -0700
+I, [2017-01-25T15:15:03.701878 #71011]  INFO -- : [15c4a0ad-997d-45f5-9501-6ebbe37e44b7] Processing by HomeController#index as HTML
+I, [2017-01-25T15:15:03.709708 #71011]  INFO -- : [15c4a0ad-997d-45f5-9501-6ebbe37e44b7]   Rendering home/index.html.erb within layouts/application
+I, [2017-01-25T15:15:03.730444 #71011]  INFO -- : [15c4a0ad-997d-45f5-9501-6ebbe37e44b7]   Rendered home/index.html.erb within layouts/application (20.5ms)
+I, [2017-01-25T15:15:03.732276 #71011]  INFO -- : [15c4a0ad-997d-45f5-9501-6ebbe37e44b7] Completed 200 OK in 28ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+I, [2017-01-25T15:15:03.836575 #71011]  INFO -- : [f331d9bc-ed55-420c-9945-a273a49678a6] Started GET "/assets/map.js" for 127.0.0.1 at 2017-01-25 15:15:03 -0700
+I, [2017-01-25T15:15:03.842451 #71011]  INFO -- : [bcf8d4bb-4d72-443e-86a3-2eb276df7b18] Started GET "/assets/script.js" for 127.0.0.1 at 2017-01-25 15:15:03 -0700
+I, [2017-01-25T15:15:10.647287 #71011]  INFO -- : [b68cda42-4e7b-43d7-834a-55368196170d] Started POST "/posts" for 127.0.0.1 at 2017-01-25 15:15:10 -0700
+I, [2017-01-25T15:15:10.650192 #71011]  INFO -- : [b68cda42-4e7b-43d7-834a-55368196170d] Processing by PostsController#create as HTML
+I, [2017-01-25T15:15:10.650880 #71011]  INFO -- : [b68cda42-4e7b-43d7-834a-55368196170d]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"lCZ0v/oPEueJK/BCyfr4syQaHbzg1Z/eOQOXj0zryU9uJ7ypsvAgBz3jvz0yiC8NPVRvdKY7C9bRg55K7iLX3g==", "post"=>{"first_name"=>"Irina", "last_name"=>"O'Hara", "email"=>"tutoring@list.ru", "phone"=>"3369126371", "message"=>"heroku"}, "commit"=>"Send Message"}
+D, [2017-01-25T15:15:10.667148 #71011] DEBUG -- : [b68cda42-4e7b-43d7-834a-55368196170d]   [1m[35m (2.0ms)[0m  [1m[36mbegin transaction[0m
+D, [2017-01-25T15:15:10.693858 #71011] DEBUG -- : [b68cda42-4e7b-43d7-834a-55368196170d]   [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO "posts" ("first_name", "last_name", "email", "phone", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Irina"], ["last_name", "O'Hara"], ["email", "tutoring@list.ru"], ["phone", "3369126371"], ["message", "heroku"], ["created_at", 2017-01-25 22:15:10 UTC], ["updated_at", 2017-01-25 22:15:10 UTC]]
+D, [2017-01-25T15:15:10.695246 #71011] DEBUG -- : [b68cda42-4e7b-43d7-834a-55368196170d]   [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+I, [2017-01-25T15:15:10.701547 #71011]  INFO -- : [b68cda42-4e7b-43d7-834a-55368196170d] [ActiveJob] Enqueued ActionMailer::DeliveryJob (Job ID: 811ee2c2-51f8-4067-8398-a0ebb94650a1) to Async(mailers) with arguments: "PostMailer", "contact_us", "deliver_now", #<GlobalID:0x007faa77812c10 @uri=#<URI::GID gid://crossings/Post/4>>
+I, [2017-01-25T15:15:10.703371 #71011]  INFO -- : [b68cda42-4e7b-43d7-834a-55368196170d] Redirected to http://localhost:3000/
+I, [2017-01-25T15:15:10.704551 #71011]  INFO -- : [b68cda42-4e7b-43d7-834a-55368196170d] Completed 302 Found in 53ms (ActiveRecord: 4.0ms)
+D, [2017-01-25T15:15:10.722955 #71011] DEBUG -- :   [1m[36mPost Load (1.7ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+I, [2017-01-25T15:15:10.724241 #71011]  INFO -- : [ActiveJob] [ActionMailer::DeliveryJob] [811ee2c2-51f8-4067-8398-a0ebb94650a1] Performing ActionMailer::DeliveryJob from Async(mailers) with arguments: "PostMailer", "contact_us", "deliver_now", #<GlobalID:0x007faa757d8b70 @uri=#<URI::GID gid://crossings/Post/4>>
+D, [2017-01-25T15:15:10.731920 #71011] DEBUG -- : [ActiveJob] [ActionMailer::DeliveryJob] [811ee2c2-51f8-4067-8398-a0ebb94650a1] PostMailer#contact_us: processed outbound mail in 4.4ms
+I, [2017-01-25T15:15:10.747284 #71011]  INFO -- : [ActiveJob] [ActionMailer::DeliveryJob] [811ee2c2-51f8-4067-8398-a0ebb94650a1] Sent mail to  (14.9ms)
+D, [2017-01-25T15:15:10.747465 #71011] DEBUG -- : [ActiveJob] [ActionMailer::DeliveryJob] [811ee2c2-51f8-4067-8398-a0ebb94650a1] Date: Wed, 25 Jan 2017 15:15:10 -0700
+Message-ID: <5889236eb5aeb_115633fd538afccf421439@Irinas-MacBook-Pro.local.mail>
+Subject: New Message from The Crossings Contact Us page
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+The following message is from: Irina O'Hara
+  				heroku
+  				Contact Information:
+  				Phone: 3369126371 
+  				Email: tutoring@list.ru
+I, [2017-01-25T15:15:10.747937 #71011]  INFO -- : [81f39c13-3167-4a1d-beb0-a087afc46938] Started GET "/" for 127.0.0.1 at 2017-01-25 15:15:10 -0700
+I, [2017-01-25T15:15:10.748673 #71011]  INFO -- : [ActiveJob] [ActionMailer::DeliveryJob] [811ee2c2-51f8-4067-8398-a0ebb94650a1] Performed ActionMailer::DeliveryJob from Async(mailers) in 23.8ms
+I, [2017-01-25T15:15:10.749759 #71011]  INFO -- : [81f39c13-3167-4a1d-beb0-a087afc46938] Processing by HomeController#index as HTML
+I, [2017-01-25T15:15:10.757558 #71011]  INFO -- : [81f39c13-3167-4a1d-beb0-a087afc46938]   Rendering home/index.html.erb within layouts/application
+I, [2017-01-25T15:15:10.773257 #71011]  INFO -- : [81f39c13-3167-4a1d-beb0-a087afc46938]   Rendered home/index.html.erb within layouts/application (15.5ms)
+I, [2017-01-25T15:15:10.777399 #71011]  INFO -- : [81f39c13-3167-4a1d-beb0-a087afc46938] Completed 200 OK in 26ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+I, [2017-01-25T15:15:10.875650 #71011]  INFO -- : [2457c966-9145-4225-9aff-c16a22f2ad84] Started GET "/assets/map.js" for 127.0.0.1 at 2017-01-25 15:15:10 -0700
+I, [2017-01-25T15:15:10.890884 #71011]  INFO -- : [a0c6e5f0-e196-4f8f-833d-b0858fab57a8] Started GET "/assets/script.js" for 127.0.0.1 at 2017-01-25 15:15:10 -0700
+I, [2017-01-25T15:15:11.054242 #71011]  INFO -- : [3df194d5-99d4-450c-8756-c09d698c0fbc] Started GET "/assets/rsz_heber.jpg" for 127.0.0.1 at 2017-01-25 15:15:11 -0700
+I, [2017-01-25T15:30:56.101865 #71011]  INFO -- : [307f9b9a-2377-4542-be32-b30dec836783] Started GET "/" for 127.0.0.1 at 2017-01-25 15:30:56 -0700
+I, [2017-01-25T15:30:56.142667 #71011]  INFO -- : [307f9b9a-2377-4542-be32-b30dec836783] Processing by HomeController#index as HTML
+I, [2017-01-25T15:30:56.174997 #71011]  INFO -- : [307f9b9a-2377-4542-be32-b30dec836783]   Rendering home/index.html.erb within layouts/application
+I, [2017-01-25T15:30:56.228366 #71011]  INFO -- : [307f9b9a-2377-4542-be32-b30dec836783]   Rendered home/index.html.erb within layouts/application (52.9ms)
+I, [2017-01-25T15:30:56.231130 #71011]  INFO -- : [307f9b9a-2377-4542-be32-b30dec836783] Completed 200 OK in 86ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+I, [2017-01-25T15:30:56.288173 #71011]  INFO -- : [09450eae-3032-493b-8745-6aa8813ffe5a] Started GET "/assets/map.js" for 127.0.0.1 at 2017-01-25 15:30:56 -0700
+I, [2017-01-25T15:30:56.668385 #71011]  INFO -- : [82cb2c9c-a38f-479c-9404-59757716c929] Started GET "/assets/script.js" for 127.0.0.1 at 2017-01-25 15:30:56 -0700
+I, [2017-01-25T15:31:07.369812 #71011]  INFO -- : [8721d04c-73fa-4192-a998-796822e6a18f] Started POST "/posts" for 127.0.0.1 at 2017-01-25 15:31:07 -0700
+I, [2017-01-25T15:31:07.381910 #71011]  INFO -- : [8721d04c-73fa-4192-a998-796822e6a18f] Processing by PostsController#create as HTML
+I, [2017-01-25T15:31:07.382639 #71011]  INFO -- : [8721d04c-73fa-4192-a998-796822e6a18f]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"mcATXpnrJfeZ2lUz9Ns5Z9dQg70OLd0laPIeBWNFIvdjwdtI0RQXFy0SGkwPqe7Zzh7xdUjDSS2AchfAwYw8Zg==", "post"=>{"first_name"=>"Irina", "last_name"=>"O'Hara", "email"=>"tutoring@list.ru", "phone"=>"3369126371", "message"=>"??"}, "commit"=>"Send Message"}
+D, [2017-01-25T15:31:07.402103 #71011] DEBUG -- : [8721d04c-73fa-4192-a998-796822e6a18f]   [1m[35m (2.0ms)[0m  [1m[36mbegin transaction[0m
+D, [2017-01-25T15:31:07.426952 #71011] DEBUG -- : [8721d04c-73fa-4192-a998-796822e6a18f]   [1m[35mSQL (1.8ms)[0m  [1m[32mINSERT INTO "posts" ("first_name", "last_name", "email", "phone", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Irina"], ["last_name", "O'Hara"], ["email", "tutoring@list.ru"], ["phone", "3369126371"], ["message", "??"], ["created_at", 2017-01-25 22:31:07 UTC], ["updated_at", 2017-01-25 22:31:07 UTC]]
+D, [2017-01-25T15:31:07.429689 #71011] DEBUG -- : [8721d04c-73fa-4192-a998-796822e6a18f]   [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+D, [2017-01-25T15:31:07.454242 #71011] DEBUG -- :   [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+I, [2017-01-25T15:31:07.459217 #71011]  INFO -- : [ActiveJob] [ActionMailer::DeliveryJob] [17d1975e-29be-4d35-8a51-1bb195dc7a24] Performing ActionMailer::DeliveryJob from Async(mailers) with arguments: "PostMailer", "contact_us", "deliver_now", #<GlobalID:0x007faa75562878 @uri=#<URI::GID gid://crossings/Post/5>>
+D, [2017-01-25T15:31:07.476897 #71011] DEBUG -- : [ActiveJob] [ActionMailer::DeliveryJob] [17d1975e-29be-4d35-8a51-1bb195dc7a24] PostMailer#contact_us: processed outbound mail in 12.8ms
+I, [2017-01-25T15:31:07.487720 #71011]  INFO -- : [ActiveJob] [ActionMailer::DeliveryJob] [17d1975e-29be-4d35-8a51-1bb195dc7a24] Sent mail to  (10.5ms)
+D, [2017-01-25T15:31:07.487824 #71011] DEBUG -- : [ActiveJob] [ActionMailer::DeliveryJob] [17d1975e-29be-4d35-8a51-1bb195dc7a24] Date: Wed, 25 Jan 2017 15:31:07 -0700
+Message-ID: <5889272b76012_115633fd538afccf4215cf@Irinas-MacBook-Pro.local.mail>
+Subject: New Message from The Crossings Contact Us page
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+The following message is from: Irina O'Hara
+  				??
+  				Contact Information:
+  				Phone: 3369126371 
+  				Email: tutoring@list.ru
+I, [2017-01-25T15:31:07.489597 #71011]  INFO -- : [ActiveJob] [ActionMailer::DeliveryJob] [17d1975e-29be-4d35-8a51-1bb195dc7a24] Performed ActionMailer::DeliveryJob from Async(mailers) in 28.74ms
+I, [2017-01-25T15:31:07.491547 #71011]  INFO -- : [8721d04c-73fa-4192-a998-796822e6a18f] [ActiveJob] Enqueued ActionMailer::DeliveryJob (Job ID: 17d1975e-29be-4d35-8a51-1bb195dc7a24) to Async(mailers) with arguments: "PostMailer", "contact_us", "deliver_now", #<GlobalID:0x007faa7557b0a8 @uri=#<URI::GID gid://crossings/Post/5>>
+I, [2017-01-25T15:31:07.493301 #71011]  INFO -- : [8721d04c-73fa-4192-a998-796822e6a18f] Redirected to http://localhost:3000/
+I, [2017-01-25T15:31:07.493697 #71011]  INFO -- : [8721d04c-73fa-4192-a998-796822e6a18f] Completed 302 Found in 111ms (ActiveRecord: 5.8ms)
+I, [2017-01-25T15:31:07.503878 #71011]  INFO -- : [96986015-0f0d-401e-822f-242112cc9ddf] Started GET "/" for 127.0.0.1 at 2017-01-25 15:31:07 -0700
+I, [2017-01-25T15:31:07.504957 #71011]  INFO -- : [96986015-0f0d-401e-822f-242112cc9ddf] Processing by HomeController#index as HTML
+I, [2017-01-25T15:31:07.509617 #71011]  INFO -- : [96986015-0f0d-401e-822f-242112cc9ddf]   Rendering home/index.html.erb within layouts/application
+I, [2017-01-25T15:31:07.538717 #71011]  INFO -- : [96986015-0f0d-401e-822f-242112cc9ddf]   Rendered home/index.html.erb within layouts/application (28.9ms)
+I, [2017-01-25T15:31:07.540128 #71011]  INFO -- : [96986015-0f0d-401e-822f-242112cc9ddf] Completed 200 OK in 35ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+I, [2017-01-25T15:31:07.726590 #71011]  INFO -- : [485d471b-5af3-475a-9b8d-a7311b606787] Started GET "/assets/map.js" for 127.0.0.1 at 2017-01-25 15:31:07 -0700
+I, [2017-01-25T15:31:07.750942 #71011]  INFO -- : [bb85eefd-2887-4a24-a6d8-0710994033de] Started GET "/assets/script.js" for 127.0.0.1 at 2017-01-25 15:31:07 -0700
+I, [2017-01-25T15:31:07.871856 #71011]  INFO -- : [22406e89-dadb-4c86-9998-2afc695aa5cf] Started GET "/assets/rsz_heber.jpg" for 127.0.0.1 at 2017-01-25 15:31:07 -0700
+I, [2017-01-25T15:32:01.256589 #71011]  INFO -- : [129dbfa5-cf68-437c-a30a-8972f6b8ca9d] Started GET "/admin" for 127.0.0.1 at 2017-01-25 15:32:01 -0700
+I, [2017-01-25T15:32:01.303768 #71011]  INFO -- : [129dbfa5-cf68-437c-a30a-8972f6b8ca9d] Processing by Admin::PostsController#index as HTML
+I, [2017-01-25T15:32:01.313425 #71011]  INFO -- : [129dbfa5-cf68-437c-a30a-8972f6b8ca9d] Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+F, [2017-01-25T15:32:01.323539 #71011] FATAL -- : [129dbfa5-cf68-437c-a30a-8972f6b8ca9d]   
+F, [2017-01-25T15:32:01.323620 #71011] FATAL -- : [129dbfa5-cf68-437c-a30a-8972f6b8ca9d] TypeError (no implicit conversion of nil into String):
+F, [2017-01-25T15:32:01.323658 #71011] FATAL -- : [129dbfa5-cf68-437c-a30a-8972f6b8ca9d]   
+F, [2017-01-25T15:32:01.323729 #71011] FATAL -- : [129dbfa5-cf68-437c-a30a-8972f6b8ca9d] activesupport (5.0.1) lib/active_support/security_utils.rb:23:in `digest'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] activesupport (5.0.1) lib/active_support/security_utils.rb:23:in `hexdigest'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] activesupport (5.0.1) lib/active_support/security_utils.rb:23:in `variable_size_secure_compare'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/action_controller/metal/http_authentication.rb:75:in `block (2 levels) in http_basic_authenticate_with'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/action_controller/metal/http_authentication.rb:97:in `authenticate'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/action_controller/metal/http_authentication.rb:87:in `authenticate_with_http_basic'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/action_controller/metal/http_authentication.rb:83:in `authenticate_or_request_with_http_basic'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/action_controller/metal/http_authentication.rb:71:in `block in http_basic_authenticate_with'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] activesupport (5.0.1) lib/active_support/callbacks.rb:396:in `instance_exec'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] activesupport (5.0.1) lib/active_support/callbacks.rb:396:in `block in make_lambda'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] activesupport (5.0.1) lib/active_support/callbacks.rb:169:in `block (2 levels) in halting'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/abstract_controller/callbacks.rb:12:in `block (2 levels) in <module:Callbacks>'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] activesupport (5.0.1) lib/active_support/callbacks.rb:170:in `block in halting'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] activesupport (5.0.1) lib/active_support/callbacks.rb:454:in `block in call'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] activesupport (5.0.1) lib/active_support/callbacks.rb:454:in `each'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] activesupport (5.0.1) lib/active_support/callbacks.rb:454:in `call'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] activesupport (5.0.1) lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] activesupport (5.0.1) lib/active_support/callbacks.rb:750:in `_run_process_action_callbacks'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] activesupport (5.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/action_controller/metal/rescue.rb:20:in `process_action'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] activesupport (5.0.1) lib/active_support/notifications.rb:164:in `block in instrument'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] activesupport (5.0.1) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] activesupport (5.0.1) lib/active_support/notifications.rb:164:in `instrument'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/action_controller/metal/params_wrapper.rb:248:in `process_action'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] activerecord (5.0.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/abstract_controller/base.rb:126:in `process'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionview (5.0.1) lib/action_view/rendering.rb:30:in `process'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/action_controller/metal.rb:190:in `dispatch'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/action_controller/metal.rb:262:in `dispatch'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/action_dispatch/journey/router.rb:26:in `each'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/action_dispatch/journey/router.rb:26:in `serve'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:725:in `call'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] rack (2.0.1) lib/rack/etag.rb:25:in `call'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] rack (2.0.1) lib/rack/conditional_get.rb:25:in `call'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] rack (2.0.1) lib/rack/head.rb:12:in `call'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] rack (2.0.1) lib/rack/session/abstract/id.rb:222:in `context'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] rack (2.0.1) lib/rack/session/abstract/id.rb:216:in `call'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] activesupport (5.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] activesupport (5.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] activesupport (5.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] railties (5.0.1) lib/rails/engine.rb:522:in `call'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+[129dbfa5-cf68-437c-a30a-8972f6b8ca9d] puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'

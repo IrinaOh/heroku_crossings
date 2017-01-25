@@ -43,7 +43,6 @@ h4,
 h5,
 h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /*text-transform: uppercase;*/
   font-weight: 700;
 }
 .img-centered {
@@ -300,7 +299,7 @@ section h3.section-subheading {
 }
 .about-heading {
   margin: 15px 0;
-  padding-top: 100px
+  padding-top: 100px;
   text-transform: none;
 }
 #portfolio .portfolio-item {
