@@ -694,3 +694,45 @@ F, [2017-01-25T15:32:01.323729 #71011] FATAL -- : [129dbfa5-cf68-437c-a30a-8972f
 [129dbfa5-cf68-437c-a30a-8972f6b8ca9d] puma (3.6.2) lib/puma/server.rb:415:in `process_client'
 [129dbfa5-cf68-437c-a30a-8972f6b8ca9d] puma (3.6.2) lib/puma/server.rb:275:in `block in run'
 [129dbfa5-cf68-437c-a30a-8972f6b8ca9d] puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+I, [2017-01-25T15:38:42.646524 #71179]  INFO -- : [837b2b32-27df-46c1-ba84-bc9b23f01aeb] Started GET "/" for 127.0.0.1 at 2017-01-25 15:38:42 -0700
+I, [2017-01-25T15:38:42.652900 #71179]  INFO -- : [837b2b32-27df-46c1-ba84-bc9b23f01aeb] Processing by HomeController#index as HTML
+I, [2017-01-25T15:38:42.691367 #71179]  INFO -- : [837b2b32-27df-46c1-ba84-bc9b23f01aeb]   Rendering home/index.html.erb within layouts/application
+I, [2017-01-25T15:38:42.716495 #71179]  INFO -- : [837b2b32-27df-46c1-ba84-bc9b23f01aeb]   Rendered home/index.html.erb within layouts/application (25.0ms)
+I, [2017-01-25T15:38:42.717847 #71179]  INFO -- : [837b2b32-27df-46c1-ba84-bc9b23f01aeb] Completed 200 OK in 64ms (Views: 30.9ms | ActiveRecord: 3.4ms)
+I, [2017-01-25T15:38:42.739455 #71179]  INFO -- : [794208e5-3dc9-483e-86f0-45d9cb97db05] Started GET "/assets/map.js" for 127.0.0.1 at 2017-01-25 15:38:42 -0700
+I, [2017-01-25T15:38:43.018954 #71179]  INFO -- : [69469c95-22e3-4717-a43e-c76f528e4618] Started GET "/assets/script.js" for 127.0.0.1 at 2017-01-25 15:38:43 -0700
+I, [2017-01-25T15:39:02.835588 #71179]  INFO -- : [4d8bec8d-1333-473e-a17d-060e062d1554] Started POST "/posts" for 127.0.0.1 at 2017-01-25 15:39:02 -0700
+I, [2017-01-25T15:39:02.840585 #71179]  INFO -- : [4d8bec8d-1333-473e-a17d-060e062d1554] Processing by PostsController#create as HTML
+I, [2017-01-25T15:39:02.840724 #71179]  INFO -- : [4d8bec8d-1333-473e-a17d-060e062d1554]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"AZJPZqLLpk9lW9FmrgSyO8gwalaqrHUX1Aj7O/q69Sn7k4dw6jSUr9GTnhlVdmWF0X4YnuxC4R88iPL+WHPruA==", "post"=>{"first_name"=>"Irina", "last_name"=>"O'Hara", "email"=>"tutoring@list.ru", "phone"=>"3369126371", "message"=>"maybe?"}, "commit"=>"Send Message"}
+D, [2017-01-25T15:39:02.847246 #71179] DEBUG -- : [4d8bec8d-1333-473e-a17d-060e062d1554]   [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+D, [2017-01-25T15:39:02.857513 #71179] DEBUG -- : [4d8bec8d-1333-473e-a17d-060e062d1554]   [1m[35mSQL (2.0ms)[0m  [1m[32mINSERT INTO "posts" ("first_name", "last_name", "email", "phone", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Irina"], ["last_name", "O'Hara"], ["email", "tutoring@list.ru"], ["phone", "3369126371"], ["message", "maybe?"], ["created_at", 2017-01-25 22:39:02 UTC], ["updated_at", 2017-01-25 22:39:02 UTC]]
+D, [2017-01-25T15:39:02.859446 #71179] DEBUG -- : [4d8bec8d-1333-473e-a17d-060e062d1554]   [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+I, [2017-01-25T15:39:02.867483 #71179]  INFO -- : [4d8bec8d-1333-473e-a17d-060e062d1554] [ActiveJob] Enqueued ActionMailer::DeliveryJob (Job ID: 0b1d9fdd-f69d-4cff-b60b-b92b7a247aa5) to Async(mailers) with arguments: "PostMailer", "contact_us", "deliver_now", #<GlobalID:0x007fe415415180 @uri=#<URI::GID gid://crossings/Post/6>>
+I, [2017-01-25T15:39:02.868789 #71179]  INFO -- : [4d8bec8d-1333-473e-a17d-060e062d1554] Redirected to http://localhost:3000/
+I, [2017-01-25T15:39:02.869064 #71179]  INFO -- : [4d8bec8d-1333-473e-a17d-060e062d1554] Completed 302 Found in 28ms (ActiveRecord: 3.6ms)
+D, [2017-01-25T15:39:02.883109 #71179] DEBUG -- :   [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+I, [2017-01-25T15:39:02.886025 #71179]  INFO -- : [ActiveJob] [ActionMailer::DeliveryJob] [0b1d9fdd-f69d-4cff-b60b-b92b7a247aa5] Performing ActionMailer::DeliveryJob from Async(mailers) with arguments: "PostMailer", "contact_us", "deliver_now", #<GlobalID:0x007fe41542e1d0 @uri=#<URI::GID gid://crossings/Post/6>>
+I, [2017-01-25T15:39:02.899887 #71179]  INFO -- : [a2b7e2ee-ae61-4830-8e08-e3640a2cbebc] Started GET "/" for 127.0.0.1 at 2017-01-25 15:39:02 -0700
+I, [2017-01-25T15:39:02.902588 #71179]  INFO -- : [a2b7e2ee-ae61-4830-8e08-e3640a2cbebc] Processing by HomeController#index as HTML
+I, [2017-01-25T15:39:02.906456 #71179]  INFO -- : [a2b7e2ee-ae61-4830-8e08-e3640a2cbebc]   Rendering home/index.html.erb within layouts/application
+I, [2017-01-25T15:39:02.931985 #71179]  INFO -- : [a2b7e2ee-ae61-4830-8e08-e3640a2cbebc]   Rendered home/index.html.erb within layouts/application (25.3ms)
+I, [2017-01-25T15:39:02.938022 #71179]  INFO -- : [a2b7e2ee-ae61-4830-8e08-e3640a2cbebc] Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+I, [2017-01-25T15:39:03.101176 #71179]  INFO -- : [b94c2a3d-c9de-44e5-8008-7b933810c0de] Started GET "/assets/map.js" for 127.0.0.1 at 2017-01-25 15:39:03 -0700
+I, [2017-01-25T15:39:03.111439 #71179]  INFO -- : [cf9f00b8-5421-4923-ab37-4922270080c7] Started GET "/assets/script.js" for 127.0.0.1 at 2017-01-25 15:39:03 -0700
+I, [2017-01-25T15:39:03.364662 #71179]  INFO -- : [24ac475f-6029-4bcc-a5da-b13e20e4a8d8] Started GET "/assets/rsz_heber.jpg" for 127.0.0.1 at 2017-01-25 15:39:03 -0700
+D, [2017-01-25T15:39:03.529473 #71179] DEBUG -- : [ActiveJob] [ActionMailer::DeliveryJob] [0b1d9fdd-f69d-4cff-b60b-b92b7a247aa5] PostMailer#contact_us: processed outbound mail in 642.6ms
+I, [2017-01-25T15:39:03.536875 #71179]  INFO -- : [ActiveJob] [ActionMailer::DeliveryJob] [0b1d9fdd-f69d-4cff-b60b-b92b7a247aa5] Sent mail to  (7.2ms)
+D, [2017-01-25T15:39:03.536990 #71179] DEBUG -- : [ActiveJob] [ActionMailer::DeliveryJob] [0b1d9fdd-f69d-4cff-b60b-b92b7a247aa5] Date: Wed, 25 Jan 2017 15:39:03 -0700
+Message-ID: <588929078240c_1160b3ff20aa0a7587349f@Irinas-MacBook-Pro.local.mail>
+Subject: New Message from The Crossings Contact Us page
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+The following message is from: Irina O'Hara
+  				maybe?
+  				Contact Information:
+  				Phone: 3369126371 
+  				Email: tutoring@list.ru
+I, [2017-01-25T15:39:03.537244 #71179]  INFO -- : [ActiveJob] [ActionMailer::DeliveryJob] [0b1d9fdd-f69d-4cff-b60b-b92b7a247aa5] Performed ActionMailer::DeliveryJob from Async(mailers) in 650.98ms
