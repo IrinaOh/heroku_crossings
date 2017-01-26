@@ -762,6 +762,9 @@ body {
     .map {
         height: 75%;
     }
+    section#location{
+      height: 1200px ;
+    }
 }
 
 .map iframe {
