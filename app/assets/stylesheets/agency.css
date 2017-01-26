@@ -762,7 +762,7 @@ body {
     .map {
         height: 75%;
     }
-    section#location{
+    #location{
       height: 1200px ;
     }
 }
